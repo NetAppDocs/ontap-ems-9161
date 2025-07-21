@@ -1,0 +1,96 @@
+---
+sidebar: sidebar
+permalink: cluster-switch-events.html
+keywords: ems, message, messages, event, events, group, catalog
+summary: cluster.switch events
+---
+
+= cluster.switch events
+:toc: macro
+:toclevels: 1
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./media/
+
+== cluster.switch.count
+*Severity*::
+ALERT
+*Description*::
+This message occurs when an insufficient number of cluster switches are discovered for a redundant cluster network configuration.
+*Corrective Action*::
+1) Ensure that a redundant pair of cluster switches exist in the network. 2) Ensure that cluster ports are connected to both switches. 3) Enable Cisco Discovery Protocol (CDP), Industry Standard Discovery Protocol (ISDP) or Link Layer Discovery Protocol (LLDP) on the switches, if you previously disabled it. CDP/ISDP/LLDP is enabled by default. Refer to your switch documentation for instructions. 4) If ONTAP cannot automatically discover a switch, use the "system switch ethernet create" command to configure discovery and monitoring of the switch.
+*Syslog Message*::
+Cluster switches discovered: %d, but %d switches required for redundancy.
+*Parameters*::
+*count* (INT): Number of cluster switches discovered.
+*required* (INT): Number of cluster switches required.
+
+== cluster.switch.pwr.count
+*Severity*::
+INFORMATIONAL
+*Description*::
+The power supply on the switch is missing. The remaining power supply is a single point of failure. The switch might shut down with the next PSU failure.
+*Corrective Action*::
+1) Check whether the switch's power supply unit is properly inserted into the chassis of the switch.
+*Syslog Message*::
+Cluster switch: %s has: %d power supplys and requires %d.
+*Parameters*::
+*switch_name* (STRING): Cluster switch name
+*count* (INT): The switch power supply count found.
+*required* (INT): The switch power supply count required.
+
+== cluster.switch.pwr.fail
+*Severity*::
+INFORMATIONAL
+*Description*::
+The power supply on the switch is missing or is not operational.
+*Corrective Action*::
+1) Ensure that the power supply mains supplying power to the switch is turned on. 2) Ensure that the power cord is connected to the power supply of the switch. 3) Contact technical support if the alert persists.
+*Syslog Message*::
+Cluster switch: %s power supply: %s status: %s.
+*Parameters*::
+*switch_name* (STRING): Cluster switch name
+*pwr_supply_name* (STRING): The power supply name that is failing.
+*status* (STRING): The power supply status.
+
+== cluster.switch.pwr.non.operational
+*Severity*::
+INFORMATIONAL
+*Description*::
+The power supply on the switch is not operational.
+*Corrective Action*::
+1) Ensure that the power supply unit is turned on through switch CLI. 2) Run diagnostics on the switch to check the operational status of the power supply unit (PSU). For instructions about how to run switch diagnostics, see the switch's configuration guide. 3) Contact technical support if the alert persists.
+*Syslog Message*::
+Cluster switch: %s power supply: %s status: %s.
+*Parameters*::
+*switch_name* (STRING): Cluster switch name
+*pwr_supply_name* (STRING): The power supply name that is failing.
+*status* (STRING): The power supply status.
+
+== cluster.switch.reboot
+*Severity*::
+INFORMATIONAL
+*Description*::
+The cluster switch has recently rebooted. Communication problems and cluster connectivity issues might occur.
+*Corrective Action*::
+1) If the cluster switch was not rebooted on purpose, then check the switch to ensure that it is operating normally. 2) If errors persist, contact technical support for further assistance.
+*Syslog Message*::
+Cluster switch: %s rebooted at: %ld
+*Parameters*::
+*switch_name* (STRING): Cluster switch name
+*time* (INT): Last reported time before reboot.
+
+== cluster.switch.unsupported
+*Severity*::
+INFORMATIONAL
+*Description*::
+Unsupported cluster switch is detected. Communication problems and cluster connectivity issues occur.
+*Corrective Action*::
+Unsupported cluster switch found. Connect a supported cluster switch to cluster network.
+*Syslog Message*::
+Cluster switch: %s model: %s not supported.
+*Parameters*::
+*switch_name* (STRING): Cluster switch name
+*model* (STRING): The switch model.

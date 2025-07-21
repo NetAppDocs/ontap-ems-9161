@@ -1,0 +1,27 @@
+---
+sidebar: sidebar
+permalink: upgrademgr-node-events.html
+keywords: ems, message, messages, event, events, group, catalog
+summary: upgrademgr.node events
+---
+
+= upgrademgr.node events
+:toc: macro
+:toclevels: 1
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./media/
+
+== upgrademgr.node.updateDone
+*Severity*::
+INFORMATIONAL
+*Description*::
+This message occurs when an update of node is completed successfully.
+*Corrective Action*::
+(None).
+*Syslog Message*::
+(None).
+*Parameters*::
+*node* (STRING): Node that successfully completed the update.

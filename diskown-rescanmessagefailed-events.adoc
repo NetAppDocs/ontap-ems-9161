@@ -1,0 +1,27 @@
+---
+sidebar: sidebar
+permalink: diskown-rescanmessagefailed-events.html
+keywords: ems, message, messages, event, events, group, catalog
+summary: diskown.rescanmessagefailed events
+---
+
+= diskown.rescanmessagefailed events
+:toc: macro
+:toclevels: 1
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./media/
+
+== diskown.RescanMessageFailed
+*Severity*::
+ERROR
+*Description*::
+This message occurs while transferring the ownership of a disk to another node, when a rescan message is sent but does not go through.
+*Corrective Action*::
+Use the "disk show" command on the nodeshell of %s for the node to rescan the disks which changed ownership.
+*Syslog Message*::
+Could not send rescan message to %s.
+*Parameters*::
+*hostname* (STRING): Name of the host that the message was sent to.

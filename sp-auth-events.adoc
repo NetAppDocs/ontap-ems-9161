@@ -1,0 +1,28 @@
+---
+sidebar: sidebar
+permalink: sp-auth-events.html
+keywords: ems, message, messages, event, events, group, catalog
+summary: sp.auth events
+---
+
+= sp.auth events
+:toc: macro
+:toclevels: 1
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./media/
+
+== sp.auth.loginDenied
+*Severity*::
+NOTICE
+*Description*::
+This message occurs when a login is attempted on the node's Service Processor (SP) or baseboard management controller (BMC) and the login is denied.
+*Corrective Action*::
+(None).
+*Syslog Message*::
+BMC or SP login authentication failure for user "%s" from %s.
+*Parameters*::
+*user* (STRING): User the login was attempted with.
+*fromhost* (STRING): Where the login was attempted from.
