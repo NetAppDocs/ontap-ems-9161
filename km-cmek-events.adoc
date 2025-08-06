@@ -1,0 +1,86 @@
+---
+sidebar: sidebar
+permalink: km-cmek-events.html
+keywords: ems, message, messages, event, events, group, catalog
+summary: km.cmek events
+---
+
+= km.cmek events
+:toc: macro
+:toclevels: 1
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./media/
+
+== km.cmek.gckms.available
+*Severity*::
+NOTICE
+*Description*::
+This message occurs when a configured Google Cloud Key Management Service (GCKMS) that was previously reported as unavailable for key operations is now available.
+*Corrective Action*::
+(None).
+*Syslog Message*::
+The GCKMS with project ID: "%s", key ring location: "%s", key ring: "%s" and key name: "%s" configured is now available.
+*Parameters*::
+*projectId* (STRING): Project ID.
+*keyringLocation* (STRING): Location of the key ring.
+*keyringName* (STRING): Name of the key ring.
+*keyName* (STRING): Name of the key.
+
+== km.cmek.gckms.keyVersionChg
+*Severity*::
+NOTICE
+*Description*::
+This message occurs when a change is made to the current key version associated with the key name of the configured Google Cloud Key Management Service (GCKMS). The key version might have been auto-rotated or manually changed at the GCKMS. Additionally, the top-level internal key protection key is successfully re-wrapped with the current key version of the GCKMS key name.
+*Corrective Action*::
+(None).
+*Syslog Message*::
+The version of the key "%s" owned by GCKMS project ID "%s", with key ring "%s" at "%s", has been changed from "%s" to "%s".
+*Parameters*::
+*keyName* (STRING): Name of the key.
+*projectId* (STRING): Project ID of the GCKMS.
+*keyringName* (STRING): Name of the key ring.
+*keyringLocation* (STRING): Location of the key ring.
+*oldKeyVersion* (STRING): Prior key version.
+*newKeyVersion* (STRING): New key version.
+
+== km.cmek.gckms.notAvailable
+*Severity*::
+ALERT
+*Description*::
+This message occurs when a check for the availability of the configured Google Cloud Key Management Service (GCKMS) fails. The GCKMS might be down or there might be a network-related problem preventing communication. Without access to the GCKMS, the system might not be able to restore encryption keys needed to mount encrypted volumes. If the GCKMS is not available, then the next time this system boots, the failure to restore the keys might prevent the system from booting successfully or the encrypted volumes hosted on this system from coming online.
+*Corrective Action*::
+Verify that the GCKMS configuration is correct and verify the permissions and connectivity are correct. If the issue still persists, contact technical support.
+*Syslog Message*::
+The GCKMS with project ID: "%s", key ring location: "%s", key ring: "%s" and key name: "%s" is not available.
+*Parameters*::
+*projectId* (STRING): Project ID.
+*keyringLocation* (STRING): Location of the key ring.
+*keyringName* (STRING): Name of the key ring.
+*keyName* (STRING): Name of the key.
+
+== km.cmek.init.failed
+*Severity*::
+ALERT
+*Description*::
+This message occurs when the system fails to initialize the key hierarchy required for volume encryption and that is protected by the Customer Managed Encryption Key (CMEK). Reasons for failure include failure to create the key hierarchy, incorrect CMEK configuration, identity, networking or permission issues in communicating with the CMEK hosted service and failure to store the CMEK wrapped key hierarchy in an external store like etcd.
+*Corrective Action*::
+Ensure that the configuration, identity, networking and permissions required to communicate with the CMEK hosted service are configured correctly. If the issue persists, contact technical support.
+*Syslog Message*::
+Initialization of the CMEK protected key hierarchy fails. Reason: "%s".
+*Parameters*::
+*reason* (STRING): Reason for failure.
+
+== km.cmek.init.success
+*Severity*::
+NOTICE
+*Description*::
+This message occurs when the system successfully initializes and protects the key hierarchy with a Customer Managed Encryption Key (CMEK). The system is ready to support encrypted volumes.
+*Corrective Action*::
+(None).
+*Syslog Message*::
+CMEK protected key hierarchy initialization successfully completed.
+*Parameters*::
+(None).

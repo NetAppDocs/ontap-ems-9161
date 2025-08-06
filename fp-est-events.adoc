@@ -1,0 +1,59 @@
+---
+sidebar: sidebar
+permalink: fp-est-events.html
+keywords: ems, message, messages, event, events, group, catalog
+summary: fp.est events
+---
+
+= fp.est events
+:toc: macro
+:toclevels: 1
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./media/
+
+== fp.est.scan.catalog.failed
+*Severity*::
+ERROR
+*Description*::
+This message occurs when the volume footprint estimator scan fails to update the catalog file. This can cause footprint data reduction to be unreported post volume remount until the next scan updates the file.
+*Corrective Action*::
+Check if there is atleast 4K worth of space available for the catalog metafile in the volume. Use "df <vol-name>" command to see available space details.
+*Syslog Message*::
+Volume footprint estimator scan catalog update fails on "%s" - %s.
+*Parameters*::
+*vol* (STRING): Volume name.
+*fail_message* (STRING): Update failure reason.
+
+== fp.est.scan.catalog.updated
+*Severity*::
+NOTICE
+*Description*::
+This message occurs when related information of the volume footprint estimator scan is updated on the catalog file.
+*Corrective Action*::
+(None).
+*Syslog Message*::
+Volume footprint estimator scan catalog updated on '%s' (SE ratio local: %s, SE ratio migrate: %s, Incompressible: %d%%, Hot data: %llu%%, Mode: %d, SE ratio cold migrate: %s).
+*Parameters*::
+*vol* (STRING): Volume name.
+*se_ratio_local* (STRING): Storage efficiency ratio for local reporting.
+*se_ratio_migrate* (STRING): Storage efficiency ratio for migrate reporting.
+*incomp_data_pct* (INT): Incompressible data percentage.
+*hot_data_pct* (LONGINT): Hot data percentage.
+*scan_mode* (INT): Scan mode.
+*se_ratio_cold_migrate* (STRING): Storage efficiency ratio for cold migrate reporting.
+
+== fp.est.scan.start.failed
+*Severity*::
+ERROR
+*Description*::
+This message occurs when the volume footprint estimator scan fails to start. This might cause footprint data reduction reporting to be inaccurate. But the scan is expected to be triggered again in the next cycle which is likely to be the next day.
+*Corrective Action*::
+Scan will be triggered again in the next cycle which is likely to be the next day.
+*Syslog Message*::
+Volume footprint estimator scan fails to start on "%s" - %s.
+*Parameters*::
+*vol* (STRING): Volume name.
+*fail_message* (STRING): Scan failure reason.

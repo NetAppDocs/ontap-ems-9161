@@ -1,0 +1,32 @@
+---
+sidebar: sidebar
+permalink: arw-snapshot-events.html
+keywords: ems, message, messages, event, events, group, catalog
+summary: arw.snapshot events
+---
+
+= arw.snapshot events
+:toc: macro
+:toclevels: 1
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./media/
+
+== arw.snapshot.created
+*Severity*::
+NOTICE
+*Description*::
+This message occurs when a new ARP snapshot is created in anti-ransomware enabled volume. Additionally, it provides information about the reason behind the creation of the snapshot.
+*Corrective Action*::
+(None).
+*Syslog Message*::
+ARP snapshot created on volume "%s" (UUID: "%s") in SVM "%s" (UUID: "%s") at "%s". Reason: "%s".
+*Parameters*::
+*volumeName* (STRING): Name of the volume.
+*volumeUuid* (STRING): UUID of the Volume.
+*vserverName* (STRING): Name of the SVM.
+*vserverUuid* (STRING): UUID of the SVM.
+*time* (STRING): Time when new ARP snapshot is created.
+*reason* (STRING): Reason for snapshot creation.
