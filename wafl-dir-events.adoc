@@ -69,6 +69,22 @@ An entry with duplicate index hash is found in directory inum %d in volume %s%s%
 *app* (STRING): Application universal unique identifier(UUID).
 *volident* (STRING): Unique volume identifier in cases where volume name itself is insufficient.
 
+== wafl.dir.entries.warning
+*Severity*::
+ALERT
+*Description*::
+This message occurs when directory entries have exceeded the currently configured maximum directory size (maxdirsize) percentage.
+*Corrective Action*::
+Execute the "volume file show-inode" command with the volume name and file ID to determine the file path and then reduce the number of files in the directory. If the number of files cannot be reduced, maxdirsize can be increased. Read the documentation and knowledge base articles to ensure ramifications of increasing maxdirsize are understood as once increased, performance impacts may be observed. The value for maxdirsize can be increased (but not decreased) by executing (privilege; advanced) "volume modify -volume vol_name -maxdir-size new_value". If you need to increase the value of maxdirsize, contact NetApp technical support.
+*Syslog Message*::
+Directory entries for File ID "%d" in volume "%s%s%s" have reached "%d" percentage of the maxdirsize limit.
+*Parameters*::
+*fileid* (INT): File ID of the directory
+*vol* (STRING): Name of the volume in which the directory is located.
+*app* (STRING): Universally unique identifier (UUID) of the application.
+*volident* (STRING): Volume UUID where the directory is located.
+*percent* (INT): Percentage of the directory entries filled.
+
 == wafl.dir.fileId.err
 *Severity*::
 ERROR

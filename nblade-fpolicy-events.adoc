@@ -31,7 +31,7 @@ FPolicy processing failed on volume MSID "%lu", for Vserver ID "%lu", policy ID 
 
 == Nblade.fpolicy.flow.control
 *Severity*::
-ERROR
+NOTICE
 *Description*::
 This message occurs when FPolicy flow control is engaged due to large number of file operations being monitored by FPolicy. If this condition persists, there might be an adverse effect on client operation latency.
 *Corrective Action*::

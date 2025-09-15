@@ -38,6 +38,18 @@ Backup of the /var file system is successful after previous failures.
 *Parameters*::
 (None).
 
+== boot.varfs.forced.umount.issue
+*Severity*::
+ERROR
+*Description*::
+This message occurs when an I/O error is detected causing the /var file system to be forced umounted.
+*Corrective Action*::
+The /var file system has been forced umounted due to I/O errors. Since /var is on the boot device, the forced umount of /var may cause errors on other components going forward. Please contact your hypervisor provider./>.
+*Syslog Message*::
+I/O error caused forced umount of the /var file system.
+*Parameters*::
+*err_str* (STRING): Error string.
+
 == boot.varfs.repair.partial
 *Severity*::
 ERROR
