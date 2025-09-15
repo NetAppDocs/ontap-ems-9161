@@ -29,11 +29,11 @@ Disk shelf firmware needs to be updated on %d disk %s.
 
 == sfu.firmwareDownrev.shelf
 *Severity*::
-ERROR
+NOTICE
 *Description*::
-This message occurs when the disk shelf is running downrev firmware, and a later version is available in the /etc/shelf_fw directory. The shelf cannot be updated automatically, possibly because automatic shelf firmware update is disabled.
+This message occurs when the disk shelf is running downrev firmware, and a later version is available in the /etc/shelf_fw directory. The shelf cannot be updated automatically, possibly because the automatic shelf firmware update is disabled.
 *Corrective Action*::
-Use the "options shelf.fw.auto.update" command to check whether automatic shelf firmware update is off. Manually issue the (advanced privilege) "storage shelf firmware update" command if background update is disabled.
+Use the "options shelf.fw.auto.update" command to check whether the automatic shelf firmware update is off. Manually issue the (advanced privilege) "storage shelf firmware update" command if the background update is disabled.
 *Syslog Message*::
 Shelf %s has downrev firmware.
 *Parameters*::

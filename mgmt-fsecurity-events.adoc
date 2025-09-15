@@ -27,6 +27,19 @@ Failed to apply file security policy. Error: %s.
 *reason* (STRING): Reason for the failure.
 *vservername* (STRING): Name of the vserver.
 
+== mgmt.fsecurity.policy.EACCES
+*Severity*::
+NOTICE
+*Description*::
+This message occurs when file-directory policy apply fails due to EACCES error. When this happens, the policy will be skipped for the volume or directory.
+*Corrective Action*::
+(None).
+*Syslog Message*::
+Command "file-directory policy apply" failed due to EACCES error on SVM: %s. Policy will be skipped for paths: %s.
+*Parameters*::
+*SVM* (STRING): Name of the SVM on which file-directory policy applied.
+*ErrorPath* (STRING): Volume or directory path on which file-directory policy applied.
+
 == mgmt.fsecurity.success
 *Severity*::
 INFORMATIONAL
