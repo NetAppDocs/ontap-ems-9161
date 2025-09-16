@@ -26,6 +26,18 @@ Giveback is being initiated before the partner is in the waiting-for-giveback st
 *Parameters*::
 *state* (STRING): Current state of the partner.
 
+== cf.misc.icNicFailureTakeover
+*Severity*::
+ALERT
+*Description*::
+This message occurs when a takeover is initiated because InterConnect NIC failed on the partner node.
+*Corrective Action*::
+Replace the network interface card of InterConnect which went down on the partner node.
+*Syslog Message*::
+Failover monitor: takeover initiated because of InterConnect NIC failure on the partner node.
+*Parameters*::
+(None).
+
 == cf.misc.operatorDisable
 *Severity*::
 ERROR

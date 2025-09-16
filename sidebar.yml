@@ -445,6 +445,8 @@ entries:
     url: /callhome-fcp-events.html
   - title: callhome.fdsk events
     url: /callhome-fdsk-events.html
+  - title: callhome.fg events
+    url: /callhome-fg-events.html
   - title: callhome.flash events
     url: /callhome-flash-events.html
   - title: callhome.fs events
@@ -597,6 +599,8 @@ entries:
     url: /callhome-weekly-events.html
 - title: cam events
   entries:
+  - title: cam.counters events
+    url: /cam-counters-events.html
   - title: cam.dev events
     url: /cam-dev-events.html
   - title: cam.timeout events
@@ -777,6 +781,8 @@ entries:
     url: /cloud-creds-events.html
   - title: cloud.dberror events
     url: /cloud-dberror-events.html
+  - title: cloud.dbinfo events
+    url: /cloud-dbinfo-events.html
   - title: cloud.dbtablenotfound events
     url: /cloud-dbtablenotfound-events.html
   - title: cloud.gcpcredsinvalid events
@@ -1669,6 +1675,8 @@ entries:
     url: /fabric-sdm-events.html
 - title: fabriclink events
   entries:
+  - title: fabriclink.metadata events
+    url: /fabriclink-metadata-events.html
   - title: fabriclink.retry events
     url: /fabriclink-retry-events.html
 - title: fabricpool events
@@ -2033,8 +2041,8 @@ entries:
     url: /ha-toafterrcvpanicinfo-events.html
   - title: ha.tp events
     url: /ha-tp-events.html
-  - title: ha.unabletoretrieveaggregates events
-    url: /ha-unabletoretrieveaggregates-events.html
+  - title: ha.unabletoretrieveaggrs events
+    url: /ha-unabletoretrieveaggrs-events.html
 - title: hamsg events
   entries:
   - title: hamsg.diskcheckresp events
@@ -2971,6 +2979,8 @@ entries:
     url: /nblade-nfspathresmaxlinks-events.html
   - title: nblade.nfsrcchecksummismatch events
     url: /nblade-nfsrcchecksummismatch-events.html
+  - title: nblade.nfstlsdisabled events
+    url: /nblade-nfstlsdisabled-events.html
   - title: nblade.nfsv3writetoolarge events
     url: /nblade-nfsv3writetoolarge-events.html
   - title: nblade.nfsv4blockclient events
@@ -2993,6 +3003,8 @@ entries:
     url: /nblade-pcp-events.html
   - title: nblade.qosvioldetectregfail events
     url: /nblade-qosvioldetectregfail-events.html
+  - title: nblade.qtreefhnotused events
+    url: /nblade-qtreefhnotused-events.html
   - title: nblade.rcbinid events
     url: /nblade-rcbinid-events.html
   - title: nblade.recoverybegin events
@@ -3093,6 +3105,10 @@ entries:
     url: /netgroup-ldap-events.html
   - title: netgroup.nis events
     url: /netgroup-nis-events.html
+- title: netgroupbyname events
+  entries:
+  - title: netgroupbyname.cache events
+    url: /netgroupbyname-cache-events.html
 - title: netif events
   entries:
   - title: netif.autonegfailed events
@@ -4577,6 +4593,8 @@ entries:
     url: /smc-dst-events.html
   - title: smc.frest events
     url: /smc-frest-events.html
+  - title: smc.gdd events
+    url: /smc-gdd-events.html
   - title: smc.restore events
     url: /smc-restore-events.html
   - title: smc.snap events
@@ -4771,8 +4789,6 @@ entries:
     url: /socket-sndbuflimit-events.html
 - title: sp events
   entries:
-  - title: sp.auth events
-    url: /sp-auth-events.html
   - title: sp.authlog events
     url: /sp-authlog-events.html
   - title: sp.autoconfig events
@@ -4917,6 +4933,10 @@ entries:
   entries:
   - title: spmgmt.driver events
     url: /spmgmt-driver-events.html
+- title: ssh events
+  entries:
+  - title: ssh.sshrsa events
+    url: /ssh-sshrsa-events.html
 - title: sshd events
   entries:
   - title: sshd.auth events
@@ -5615,6 +5635,8 @@ entries:
     url: /wafl-gd-events.html
   - title: wafl.giveback events
     url: /wafl-giveback-events.html
+  - title: wafl.gran events
+    url: /wafl-gran-events.html
   - title: wafl.gs events
     url: /wafl-gs-events.html
   - title: wafl.hya events

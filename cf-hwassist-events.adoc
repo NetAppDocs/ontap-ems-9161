@@ -268,15 +268,15 @@ hw_assist: Partner(%s) has stopped throttling hw_assist alerts.
 
 == cf.hwassist.recvKeepAlive
 *Severity*::
-INFORMATIONAL
+NOTICE
 *Description*::
-This message occurs when hwassist thread receives hw_assist KeepAlive alert after missing at least two consecutive KeepAlive alerts.
+This message occurs when the hwassist thread receives a HW-assisted takeover keep-alive message after missing at least two consecutive keep-alive messages.
 *Corrective Action*::
 (None).
 *Syslog Message*::
-hw_assist: Received hw_assist KeepAlive alert from partner(%s).
+Received HW-assisted takeover keep-alive message again from HA partner (%s).
 *Parameters*::
-*partnerName* (STRING): Partner's name
+*partnerName* (STRING): HA partner's hostname.
 
 == cf.hwassist.socBindFailed
 *Severity*::
