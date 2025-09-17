@@ -50,7 +50,7 @@ product-family:
 sidebar: 
  entries:
   - title: ONTAP 9.16.1 EMS reference
-      url: /index.html
+    url: /index.html
   - title: accesscache events
     entries:
     - title: accesscache.cfg events
