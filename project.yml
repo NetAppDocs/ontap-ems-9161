@@ -14,11 +14,12 @@ settings:
     github_issue: false
     lipi_enabled: false
   versions:
-    # This Repo
     - version-number: "9.16.1"
       url: /ontap-ems-9161
-    - version-number: "9.18.1"
+    - version-number: "9.19.1"
       url: /ontap-ems
+    - version-number: "9.18.1"
+      url: /ontap-ems-9181
     - version-number: "9.17.1"
       url: /ontap-ems-9171
     - version-number: "9.15.1"
@@ -40,11 +41,11 @@ settings:
     - version-number: "9.7"
       url: https://library.netapp.com/ecm/ecm_get_file/ECMLP2864253
     - version-number: "9.6"
-      url: https://library.netapp.com/ecm/ecm_get_file/ECMLP2857180  
+      url: https://library.netapp.com/ecm/ecm_get_file/ECMLP2857180
     - version-number: "9.5"
       url: https://library.netapp.com/ecm/ecm_get_file/ECMLP2851597
     - version-number: "9.3"
-      url: https://library.netapp.com/ecm/ecm_get_file/ECMLP2843561     
+      url: https://library.netapp.com/ecm/ecm_get_file/ECMLP2843561
 product-family: 
   name: ONTAP
   repo: ontap-family
