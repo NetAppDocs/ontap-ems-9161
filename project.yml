@@ -36,16 +36,6 @@ settings:
       url: /ontap-ems-9101
     - version-number: "9.9.1"
       url: https://library.netapp.com/ecm/ecm_get_file/ECMLP2876977
-    - version-number: "9.8"
-      url: https://library.netapp.com/ecm/ecm_get_file/ECMLP2874591
-    - version-number: "9.7"
-      url: https://library.netapp.com/ecm/ecm_get_file/ECMLP2864253
-    - version-number: "9.6"
-      url: https://library.netapp.com/ecm/ecm_get_file/ECMLP2857180
-    - version-number: "9.5"
-      url: https://library.netapp.com/ecm/ecm_get_file/ECMLP2851597
-    - version-number: "9.3"
-      url: https://library.netapp.com/ecm/ecm_get_file/ECMLP2843561
 product-family: 
   name: ONTAP
   repo: ontap-family
