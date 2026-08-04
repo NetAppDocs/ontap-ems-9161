@@ -1,0 +1,30 @@
+---
+sidebar: sidebar
+permalink: flexcache-revoke-events.html
+keywords: ems, message, messages, event, events, group, catalog
+summary: flexcache.revoke events
+---
+
+= flexcache.revoke events
+:toc: macro
+:toclevels: 1
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./media/
+
+== flexcache.revoke.csm.failure
+*Severity*::
+ERROR
+*Description*::
+This message occurs when a FlexCache(R) origin volume fails to revoke cached data from a FlexCache volume due to a Cluster Session Manager (CSM) communication error. This means the origin could not notify the cache volume about changes, which might result in the cache volume serving stale data to its clients until connectivity is restored. The revoke client type indicates the type of revoke operation that failed.
+*Corrective Action*::
+Verify network connectivity between the origin cluster and the cache cluster. Ensure that the intercluster LIFs on each cluster can connect by using the "network ping" command. Check the health of the cluster peering relationship by using the "cluster peer show" command. If the issue persists, contact technical support.
+*Syslog Message*::
+FlexCache origin volume failed to revoke cached data from FlexCache volume with MSID %lu (Vserver UUID: %s, Cluster UUID: %s) due to a CSM communication error. Revoke operation type: %lu.
+*Parameters*::
+*constituentMsid* (LONGINT): Master data set identifier (MSID) of the FlexCache volume for which the revoke operation failed.
+*constituentVserverUuid* (STRING): Vserver UUID of the FlexCache volume for which the revoke operation failed.
+*constituentClusterUuid* (STRING): Cluster UUID of the FlexCache volume for which the revoke operation failed.
+*revokeClientType* (LONGINT): The type of revoke operation that failed. The possible values are REVOKE_CLIENT_NONE, REVOKE_CLIENT_EVICT, REVOKE_CLIENT_QTREE_INVALIDATE, REVOKE_CLIENT_INVALIDATE, REVOKE_CLIENT_LMGR_DOWNGRADE.
