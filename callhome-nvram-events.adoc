@@ -66,3 +66,15 @@ Call home for open failure at %s on NVRAM file %s, error %d.
 *subject* (STRING): AutoSupport subject or title for this event.
 *nvram_backing* (STRING): Name of the NVRAM backing file.
 *fileio_error* (LONGINT): Open error code.
+
+== callhome.nvram.parityErr
+*Severity*::
+ERROR
+*Description*::
+This message occurs when excessive internal parity errors are reported by the NVRAM complex. If your system is configured to do so, it generates and transmits an AutoSupport (or 'call home') message to NetApp technical support and to the configured destinations. Successful delivery of an AutoSupport message significantly improves problem determination and resolution.
+*Corrective Action*::
+Use the "system environment sensors show -hidden true" command to view the current "NVRAM12 Parity Count" and "NVRAM12 Parity Delta" values. Your system is at risk of data loss in the event of a power failure. Contact NetApp technical support to assist with possible hardware replacement of the NVRAM module.
+*Syslog Message*::
+Call home for %s.
+*Parameters*::
+*subject* (STRING): AutoSupport subject or title for this event.

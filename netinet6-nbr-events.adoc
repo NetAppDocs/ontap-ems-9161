@@ -68,14 +68,15 @@ nd6_ns_input: Bad DAD packet (link-layer address option).
 *Severity*::
 ALERT
 *Description*::
-This message occurs when Duplicate address Detection (DAD) for the specified interface address is completed, and duplicate address is found.
+This message occurs when Duplicate address Detection (DAD) for the specified interface address is completed, and the duplicate address is found.
 *Corrective Action*::
-(None).
+The IP address is already in use by another system on the network. The system that is holding the IP address is identified by MAC address. Please ensure that the IP address you are trying to assign is not already assigned to another system.
 *Syslog Message*::
-%s: DAD complete for %s - duplicate found.
+%s: DAD complete for %s - duplicate found. %s is holding the IP address.
 *Parameters*::
-*ifAddress* (STRING): Interface address.
-*ip6address* (STRING): Printable that is a loggable representation of the IP address.
+*ifName* (STRING): Interface name.
+*ip6address* (STRING): IPv6 address that is found to be a duplicate.
+*ipHolderMac* (STRING): MAC address of the device holding this IP.
 
 == netinet6.nbr.dad.ignrNS
 *Severity*::
