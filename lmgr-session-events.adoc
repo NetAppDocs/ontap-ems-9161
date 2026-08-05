@@ -14,6 +14,21 @@ summary: lmgr.session events
 :linkattrs:
 :imagesdir: ./media/
 
+== lmgr.session.cleanup.stalled
+*Severity*::
+NOTICE
+*Description*::
+This event occurs when session cleanup for a SpinNP session has stalled.
+*Corrective Action*::
+If this event occurs frequently, contact NetApp technical support.
+*Syslog Message*::
+(None).
+*Parameters*::
+*initiator* (STRING): The blade ID of the initiator.
+*uniquifier* (STRING): The session uniquifier.
+*target* (STRING): The blade ID of the target.
+*retrigger_count* (INT): Number of times cleanup was retriggered before giving up.
+
 == lmgr.session.failed
 *Severity*::
 INFORMATIONAL
