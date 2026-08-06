@@ -14,6 +14,9 @@ summary: nvmeof.subsystem events
 :linkattrs:
 :imagesdir: ./media/
 
+[lead]
+This message occurs when an NVMe-oF subsystem is added.
+
 == nvmeof.subsystem.add
 *Severity*::
 NOTICE

@@ -3,16 +3,12 @@ settings:
   downlevel: true
   internal:
     pdf_enabled: false
-    github_edit: false
     github_issue: false
-    lipi_enabled: false
   prod:
     pdf_enabled: true
     avatars_enabled: false
     harmony_enabled: false
-    github_edit: false
     github_issue: false
-    lipi_enabled: false
   versions:
     - version-number: "9.16.1"
       url: /ontap-ems-9161

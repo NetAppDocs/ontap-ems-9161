@@ -14,6 +14,9 @@ summary: upgrademgr.node events
 :linkattrs:
 :imagesdir: ./media/
 
+[lead]
+This message occurs when an update of node is completed successfully.
+
 == upgrademgr.node.updateDone
 *Severity*::
 INFORMATIONAL

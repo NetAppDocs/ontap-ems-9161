@@ -14,6 +14,9 @@ summary: callhome.arw events
 :linkattrs:
 :imagesdir: ./media/
 
+[lead]
+This message occurs when ransomware activity is detected.
+
 == callhome.arw.activity.seen
 *Severity*::
 ALERT

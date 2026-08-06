@@ -14,6 +14,9 @@ summary: coredump.job events
 :linkattrs:
 :imagesdir: ./media/
 
+[lead]
+This message occurs when the system can not automatically save a core failed.
+
 == coredump.job.notstarted
 *Severity*::
 ERROR

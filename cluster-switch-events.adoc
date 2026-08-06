@@ -14,6 +14,9 @@ summary: cluster.switch events
 :linkattrs:
 :imagesdir: ./media/
 
+[lead]
+This message occurs when an insufficient number of cluster switches are discovered for a redundant cluster network configuration.
+
 == cluster.switch.count
 *Severity*::
 ALERT
