@@ -14,8 +14,8 @@ summary: mcc.notify events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-Failed to queue the "MetroCluster Auto Heal" job
+[.lead]
+mcc.notify events are presented when failed to queue the "MetroCluster Auto Heal" job which is typically fixed by following the documented corrective steps.
 
 == mcc.notify.auto_heal_queue_failure
 *Severity*::

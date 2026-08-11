@@ -14,8 +14,8 @@ summary: nvdimm.fw events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when NVDIMM controller firmware failed to upgrade.
+[.lead]
+nvdimm.fw events are presented when nVDIMM controller firmware failed to upgrade which may require a reboot.
 
 == nvdimm.fw.upgrade.failure
 *Severity*::

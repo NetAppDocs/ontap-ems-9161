@@ -14,8 +14,8 @@ summary: dump.fail events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This event is generated while dump is trying to restart and there is no space left in the snap reserve
+[.lead]
+dump.fail events are presented when while dump is trying to restart and there is no space left in the snap reserve, which is typically fixed by updating configuration.
 
 == dump.fail.snapreserve
 *Severity*::

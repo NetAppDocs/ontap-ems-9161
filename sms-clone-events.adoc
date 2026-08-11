@@ -14,8 +14,8 @@ summary: sms.clone events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when SnapMirror(R) Synchronous fails a clone request because the relation is temporarily in a state that does not permit clone replication.
+[.lead]
+sms.clone events are presented when snapMirror(R) Synchronous fails a clone request because the relation is temporarily in a state that does not permit clone replication which typically does not require corrective action.
 
 == sms.clone.request.disallow
 *Severity*::

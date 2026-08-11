@@ -14,8 +14,8 @@ summary: suspend.zapi events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when ONTAPI (ZAPI) has been suspended due to a lack of use.
+[.lead]
+suspend.zapi events are presented when oNTAPI (ZAPI) has been suspended due to a lack of use which is typically fixed by updating configuration.
 
 == suspend.zapi
 *Severity*::

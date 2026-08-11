@@ -14,8 +14,8 @@ summary: secd.kerberos events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when there is a "time error"(clock skew, time skew, time out of bounds).
+[.lead]
+secd.kerberos events are presented when there is a "time error"(clock skew, time skew, time out of bounds) which is typically fixed by updating configuration.
 
 == secd.kerberos.clockskew
 *Severity*::

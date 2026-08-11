@@ -14,8 +14,8 @@ summary: raid.read events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when the system detects a checksum block media error in an advanced zoned checksums(AZCS) RAID group during a read operation.
+[.lead]
+raid.read events are presented when the system detects a checksum block media error in an advanced zoned checksums(AZCS) RAID group during a read operation which typically does not require corrective action.
 
 == raid.read.cksum.blk.err
 *Deprecated*::

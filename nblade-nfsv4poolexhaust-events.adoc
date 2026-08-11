@@ -14,8 +14,8 @@ summary: nblade.nfsv4poolexhaust events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when one of the NFSv4 store pools is exhausted.
+[.lead]
+nblade.nfsv4poolexhaust events are presented when one of the NFSv4 store pools is exhausted which may require contacting NetApp support.
 
 == Nblade.nfsV4PoolExhaust
 *Severity*::

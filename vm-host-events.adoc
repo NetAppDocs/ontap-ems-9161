@@ -14,8 +14,8 @@ summary: vm.host events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when a VM is paused by the hypervisor.
+[.lead]
+vm.host events are presented when a VM is paused by the hypervisor which is typically fixed by verifying system state and connectivity.
 
 == vm.host.error
 *Severity*::

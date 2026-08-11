@@ -14,8 +14,8 @@ summary: wafl.cp events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when a WAFL(R) consistency point (CP) takes longer than 30 seconds.
+[.lead]
+wafl.cp events are presented when a WAFL(R) consistency point (CP) takes longer than 30 seconds which may require contacting NetApp support.
 
 == wafl.cp.toolong
 *Severity*::

@@ -14,8 +14,8 @@ summary: kern.log events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This event is issued when the system messages log is rotated to a new name.
+[.lead]
+kern.log events are presented when the system messages log is rotated to a new name, which typically does not require corrective action.
 
 == kern.log.rotate
 *Severity*::

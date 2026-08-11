@@ -14,8 +14,8 @@ summary: nblade.vscanconninactive events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when ONTAP(R) detects a nonresponsive antivirus (AV) server and forcibly closes its vscan connection.
+[.lead]
+nblade.vscanconninactive events are presented when oNTAP(R) detects a nonresponsive antivirus (AV) server and forcibly closes its vscan connection which is typically fixed by following the documented corrective steps.
 
 == Nblade.vscanConnInactive
 *Severity*::

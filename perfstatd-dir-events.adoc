@@ -14,8 +14,8 @@ summary: perfstatd.dir events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when the perfstat daemon (perfstatd) startup fails due to improper permissions for the '/mroot/etc/log' directory.
+[.lead]
+perfstatd.dir events are presented when the perfstat daemon (perfstatd) startup fails due to improper permissions for the '/mroot/etc/log' directory which may require restarting affected services or nodes.
 
 == perfstatd.dir.permission
 *Severity*::

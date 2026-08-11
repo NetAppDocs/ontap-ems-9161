@@ -14,8 +14,8 @@ summary: callhome.user events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when a SNMP (Simple Network Management Protocol) has been configured to cause an SNMP trap.
+[.lead]
+callhome.user events are presented when a SNMP (Simple Network Management Protocol) has been configured to cause an SNMP trap which typically does not require corrective action.
 
 == callhome.user.snmp.trap
 *Severity*::

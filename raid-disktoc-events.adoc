@@ -14,8 +14,8 @@ summary: raid.disktoc events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This event is generated when it is detected from the disk Table Of Contents that a disk's stored rawsize does not match the physical size of the disk.
+[.lead]
+raid.disktoc events are presented when it is detected from the disk Table Of Contents that a disk's stored rawsize does not match the physical size of the disk, which typically does not require corrective action.
 
 == raid.disktoc.rawsizeChange
 *Severity*::

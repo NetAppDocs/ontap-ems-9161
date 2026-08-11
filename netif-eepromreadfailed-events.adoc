@@ -14,8 +14,8 @@ summary: netif.eepromreadfailed events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when there is a failure in reading the electronically erasable programmable read-only memory (EEPROM) for a network interface.
+[.lead]
+netif.eepromreadfailed events are presented when there is a failure in reading the electronically erasable programmable read-only memory (EEPROM) for a network interface which may require contacting NetApp support.
 
 == netif.eepromReadFailed
 *Severity*::

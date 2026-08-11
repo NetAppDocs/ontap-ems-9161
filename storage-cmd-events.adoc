@@ -14,8 +14,8 @@ summary: storage.cmd events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-Indicates a user request to balance I/O across initiator ports has been issued.
+[.lead]
+storage.cmd events are presented when indicates a user request to balance I/O across initiator ports has been issued which typically does not require corrective action.
 
 == storage.cmd.balanceRequest
 *Severity*::

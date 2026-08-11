@@ -14,8 +14,8 @@ summary: sis.aggr events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when undo of cross volume savings on aggregate has to abort due to some error conditions.
+[.lead]
+sis.aggr events are presented when undo of cross volume savings on aggregate has to abort due to some error conditions which typically does not require corrective action.
 
 == sis.aggr.cvs.undo.abort
 *Severity*::

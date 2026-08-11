@@ -14,8 +14,8 @@ summary: sis.compress events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when postprocess compression is skipped during a deduplication operation, even though postprocess compression is enabled on the volume.
+[.lead]
+sis.compress events are presented when postprocess compression is skipped during a deduplication operation, even though postprocess compression is enabled on the volume which typically does not require corrective action.
 
 == sis.compress.skip
 *Severity*::

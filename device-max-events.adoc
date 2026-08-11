@@ -14,8 +14,8 @@ summary: device.max events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when Data ONTAP(R) cannot install one or more discovered devices since the device type count is at full capacity.
+[.lead]
+device.max events are presented when data ONTAP(R) cannot install one or more discovered devices since the device type count is at full capacity which may require contacting NetApp support.
 
 == device.max.count.exceeded
 *Severity*::

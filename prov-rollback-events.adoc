@@ -14,8 +14,8 @@ summary: prov.rollback events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when ONTAP(R) software cannot complete a rollback of a provisioning operation sequence that failed.
+[.lead]
+prov.rollback events are presented when oNTAP(R) software cannot complete a rollback of a provisioning operation sequence that failed which is typically fixed by verifying system state and connectivity.
 
 == prov.rollback.fail.cmd
 *Severity*::

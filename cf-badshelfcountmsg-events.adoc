@@ -14,8 +14,8 @@ summary: cf.badshelfcountmsg events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This event occurs if we are sent an invalid negotiated failover shelf count message.
+[.lead]
+cf.badshelfcountmsg events are presented when if we are sent an invalid negotiated failover shelf count message, which is typically fixed by verifying system state and connectivity.
 
 == cf.badShelfCountMsg
 *Severity*::

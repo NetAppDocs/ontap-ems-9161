@@ -14,8 +14,8 @@ summary: cam.dev events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when the disk does not support the Forced Unit Access (FUA) feature bit.
+[.lead]
+cam.dev events are presented when the disk does not support the Forced Unit Access (FUA) feature bit which is typically fixed by following the documented corrective steps.
 
 == cam.dev.fuaNotSupported
 *Severity*::

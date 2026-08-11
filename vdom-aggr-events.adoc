@@ -14,8 +14,8 @@ summary: vdom.aggr events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when an internal timeout has been reached while processing volumes for an aggregate coming online during a takeover, giveback, or aggregate relocation event.
+[.lead]
+vdom.aggr events are presented when an internal timeout has been reached while processing volumes for an aggregate coming online during a takeover, giveback, or aggregate relocation event which typically does not require corrective action.
 
 == vdom.aggr.bulkmount.timeout
 *Severity*::

@@ -14,8 +14,8 @@ summary: vifmgr.portup events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when a link up event was received on a network port.
+[.lead]
+vifmgr.portup events are presented when a link up event was received on a network port which typically does not require corrective action.
 
 == vifmgr.portup
 *Severity*::

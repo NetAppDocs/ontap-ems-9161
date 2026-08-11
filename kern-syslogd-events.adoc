@@ -14,8 +14,8 @@ summary: kern.syslogd events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when an event is generated to log errors from the syslog daemon.
+[.lead]
+kern.syslogd events are presented when an event is generated to log errors from the syslog daemon which typically does not require corrective action.
 
 == kern.syslogd.error
 *Severity*::

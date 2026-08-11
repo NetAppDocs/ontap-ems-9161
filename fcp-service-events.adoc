@@ -14,8 +14,8 @@ summary: fcp.service events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-The Fibre Channel Protocol (FCP) service has been shutdown.
+[.lead]
+fcp.service events are presented when the Fibre Channel Protocol (FCP) service has been shutdown which typically does not require corrective action.
 
 == fcp.service.shutdown
 *Severity*::

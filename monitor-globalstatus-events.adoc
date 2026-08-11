@@ -14,8 +14,8 @@ summary: monitor.globalstatus events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when the system's global health is critical; for example, if a fan failed.
+[.lead]
+monitor.globalstatus events are presented when the system's global health is critical; for example, if a fan failed which is typically fixed by verifying system state and connectivity.
 
 == monitor.globalStatus.critical
 *Severity*::

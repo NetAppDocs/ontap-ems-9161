@@ -14,8 +14,8 @@ summary: nvmf.mgmt events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when a management operation fails in an NVMe-oF subsystem.
+[.lead]
+nvmf.mgmt events are presented when a management operation fails in an NVMe-oF subsystem which may require a reboot.
 
 == nvmf.mgmt.op.failed
 *Severity*::

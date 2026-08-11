@@ -14,8 +14,8 @@ summary: shm.pulllogwarning events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when the disk dongle requests the system to retrieve the error log.
+[.lead]
+shm.pulllogwarning events are presented when the disk dongle requests the system to retrieve the error log which typically does not require corrective action.
 
 == shm.pullLogWarning
 *Severity*::

@@ -14,8 +14,8 @@ summary: download.requestdone events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This event is generated when a user-initiated download has completed.
+[.lead]
+download.requestdone events are presented when a user-initiated download has completed, which typically does not require corrective action.
 
 == download.requestDone
 *Severity*::

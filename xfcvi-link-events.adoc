@@ -14,8 +14,8 @@ summary: xfcvi.link events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when the physical link of the Fibre Channel Virtual Interface (FC-VI) adapter goes down.
+[.lead]
+xfcvi.link events are presented when the physical link of the Fibre Channel Virtual Interface (FC-VI) adapter goes down which is typically fixed by verifying system state and connectivity.
 
 == xfcvi.link.down
 *Severity*::

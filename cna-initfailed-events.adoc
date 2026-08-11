@@ -14,8 +14,8 @@ summary: cna.initfailed events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when the converged network adapter (CNA) fails to initialize.
+[.lead]
+cna.initfailed events are presented when the converged network adapter (CNA) does not start which is typically fixed by following the documented corrective steps.
 
 == cna.initFailed
 *Severity*::

@@ -14,8 +14,8 @@ summary: wafl.descend events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when there is an error during descendency checking.
+[.lead]
+wafl.descend events are presented when there is an error during descendency checking which may require contacting NetApp support.
 
 == wafl.descend.fail
 *Severity*::

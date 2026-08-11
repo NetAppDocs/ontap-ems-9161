@@ -14,8 +14,8 @@ summary: lsm.pal events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when a block store PAL operation encounters an error.
+[.lead]
+lsm.pal events are presented when a block store PAL operation encounters an error which typically does not require corrective action.
 
 == lsm.pal.problem
 *Severity*::

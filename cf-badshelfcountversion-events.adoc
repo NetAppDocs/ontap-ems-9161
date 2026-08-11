@@ -14,8 +14,8 @@ summary: cf.badshelfcountversion events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This event occurs if we are sent a negotiated failover shelf count message with a version which we don't support.
+[.lead]
+cf.badshelfcountversion events are presented when if we are sent a negotiated failover shelf count message with a version, which we don't support which is typically fixed by following the documented corrective steps.
 
 == cf.badShelfCountVersion
 *Severity*::

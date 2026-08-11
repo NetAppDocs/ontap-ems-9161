@@ -14,8 +14,8 @@ summary: mcc.nso events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when dump/restore is aborted during a MetroCluster switch-over operation.
+[.lead]
+mcc.nso events are presented when dump/restore is aborted during a MetroCluster switch-over operation which typically does not require corrective action.
 
 == mcc.nso.abort.dump
 *Severity*::

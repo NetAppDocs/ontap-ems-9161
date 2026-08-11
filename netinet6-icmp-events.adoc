@@ -14,8 +14,8 @@ summary: netinet6.icmp events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when the system receives an Internet Control Message Protocol(ICMP) message, and while processing the ICMP message it finds a checksum error.
+[.lead]
+netinet6.icmp events are presented when the system receives an Internet Control Message Protocol(ICMP) message, and while processing the ICMP message it finds a checksum error which typically does not require corrective action.
 
 == netinet6.icmp.chksum
 *Severity*::

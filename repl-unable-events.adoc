@@ -14,8 +14,8 @@ summary: repl.unable events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when the workflow is unable to create a common snapshot due to timeout.
+[.lead]
+repl.unable events are presented when the workflow is cannot create a common snapshot due to timeout which typically does not require corrective action.
 
 == repl.unable.to.create.css
 *Severity*::

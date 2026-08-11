@@ -14,8 +14,8 @@ summary: wafl.giveback events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when the system cannot perform a giveback due to vol create, and must abort giveback.
+[.lead]
+wafl.giveback events are presented when the system cannot perform a giveback due to vol create, and must abort giveback which may require a reboot.
 
 == wafl.giveback.create.fail
 *Severity*::

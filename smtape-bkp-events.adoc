@@ -14,8 +14,8 @@ summary: smtape.bkp events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when an SMTape backup operation is aborted because a write to tape device fails.
+[.lead]
+smtape.bkp events are presented when an SMTape backup operation is aborted because a write to tape device fails which is typically fixed by verifying system state and connectivity.
 
 == smtape.bkp.abort.write.err
 *Severity*::

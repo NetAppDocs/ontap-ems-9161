@@ -14,8 +14,8 @@ summary: cpeer.create events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when a peer cluster reciprocal join fails.
+[.lead]
+cpeer.create events are presented when a peer cluster reciprocal join fails which is typically fixed by verifying system state and connectivity.
 
 == cpeer.create.reciprocal.fail
 *Severity*::

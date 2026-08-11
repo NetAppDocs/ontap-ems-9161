@@ -14,8 +14,8 @@ summary: callhome.no events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when a volume is out of inodes, which refer to individual files, other types of files, and directories.
+[.lead]
+callhome.no events are presented when a volume is out of inodes, which refer to individual files, other types of files, and directories which is typically fixed by updating configuration.
 
 == callhome.no.inodes
 *Severity*::

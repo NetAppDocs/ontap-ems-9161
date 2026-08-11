@@ -14,8 +14,8 @@ summary: sfu.download events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when a disk shelf firmware update completes download firmware to a disk shelf or shelves in the system.
+[.lead]
+sfu.download events are presented when a disk shelf firmware update completes download firmware to a disk shelf or shelves in the system which is typically fixed by updating configuration.
 
 == sfu.download.details
 *Deprecated*::

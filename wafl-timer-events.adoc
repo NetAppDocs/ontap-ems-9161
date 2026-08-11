@@ -14,8 +14,8 @@ summary: wafl.timer events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when disk I/O is stalled, possibly during a disk firmware download operation.
+[.lead]
+wafl.timer events are presented when disk I/O is stalled, possibly during a disk firmware download operation which may require restarting affected services or nodes.
 
 == wafl.timer.disk.io.stalled
 *Severity*::

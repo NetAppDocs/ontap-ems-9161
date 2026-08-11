@@ -14,8 +14,8 @@ summary: cmd.result events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when the system reboots as a consequence of executing the specified command.
+[.lead]
+cmd.result events are presented when the system reboots as a consequence of executing the specified command which typically does not require corrective action.
 
 == cmd.result.reboot
 *Severity*::

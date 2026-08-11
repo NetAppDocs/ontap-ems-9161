@@ -14,8 +14,8 @@ summary: disk.duplicate events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when duplicate disk names are detected.
+[.lead]
+disk.duplicate events are presented when duplicate disk names are detected which may require a reboot.
 
 == disk.duplicate.name
 *Severity*::

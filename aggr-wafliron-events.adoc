@@ -14,8 +14,8 @@ summary: aggr.wafliron events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when wafliron is started.
+[.lead]
+aggr.wafliron events are presented when wafliron is started which typically does not require corrective action.
 
 == aggr.wafliron.attemptStart
 *Severity*::

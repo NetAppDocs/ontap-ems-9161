@@ -14,8 +14,8 @@ summary: callhome.wafliron events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when WAFL(R) Iron (wafliron) Optional Commit changes are pending.
+[.lead]
+callhome.wafliron events are presented when wAFL(R) Iron (wafliron) Optional Commit changes are pending which may require contacting NetApp support.
 
 == callhome.wafliron.chg.pending
 *Severity*::

@@ -14,8 +14,8 @@ summary: cf.ic events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when the controller configuration is changed from a single enclosure HA configuration to a dual enclosure HA configuration.
+[.lead]
+cf.ic events are presented when the controller configuration is changed from a single enclosure HA configuration to a dual enclosure HA configuration which may require a reboot.
 
 == cf.ic.cc.config.changed
 *Severity*::

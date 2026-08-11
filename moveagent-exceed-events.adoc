@@ -14,8 +14,8 @@ summary: moveagent.exceed events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when the time window for a volume move operation exceeds the specified limit.
+[.lead]
+moveagent.exceed events are presented when the time window for a volume move operation exceeds the specified limit which typically does not require corrective action.
 
 == moveagent.exceed.window
 *Severity*::

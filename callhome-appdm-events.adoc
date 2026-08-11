@@ -14,8 +14,8 @@ summary: callhome.appdm events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when the Application Data Management feature encounters an error while attempting to restore an application from a snapshot.
+[.lead]
+callhome.appdm events are presented when the Application Data Management feature encounters an error while attempting to restore an application from a snapshot which is typically fixed by verifying system state and connectivity.
 
 == callhome.appdm.snaprest.fail
 *Severity*::

@@ -14,8 +14,8 @@ summary: dump.notify events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when the dump incremental backup might be incomplete.
+[.lead]
+dump.notify events are presented when the dump incremental backup might be incomplete which may require a reboot.
 
 == dump.notify.backward.ctime
 *Severity*::

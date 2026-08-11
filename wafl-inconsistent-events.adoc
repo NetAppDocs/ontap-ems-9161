@@ -14,8 +14,8 @@ summary: wafl.inconsistent events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when the ONTAP(R) kernel detects an inconsistent WAFL(R) Access Control List (ACL) on disk.
+[.lead]
+wafl.inconsistent events are presented when the ONTAP(R) kernel detects an inconsistent WAFL(R) Access Control List (ACL) on disk which may require contacting NetApp support.
 
 == wafl.inconsistent.acl
 *Severity*::

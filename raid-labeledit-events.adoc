@@ -14,8 +14,8 @@ summary: raid.labeledit events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This event occurs when you run the 'label buildtree' command to create an aggregate from a collection of disks.
+[.lead]
+raid.labeledit events are presented when you run the 'label buildtree' command to create an aggregate from a collection of disks, which typically does not require corrective action.
 
 == raid.labeledit.buildtree
 *Severity*::

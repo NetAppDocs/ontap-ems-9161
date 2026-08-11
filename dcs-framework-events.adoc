@@ -14,8 +14,8 @@ summary: dcs.framework events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when the DCS framework has been disabled on this node.
+[.lead]
+dcs.framework events are presented when the DCS framework has been disabled on this node which typically does not require corrective action.
 
 == dcs.framework.disabled
 *Severity*::

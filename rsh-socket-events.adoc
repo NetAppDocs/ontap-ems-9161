@@ -14,8 +14,8 @@ summary: rsh.socket events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-The rshd daemon could not create a socket.
+[.lead]
+rsh.socket events are presented when the rshd daemon could not create a socket which is typically fixed by following the documented corrective steps.
 
 == rsh.socket.failure
 *Severity*::

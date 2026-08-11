@@ -14,8 +14,8 @@ summary: diskown.releasingmismatchedreservation events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This event is issued when we release the reservation because the DOWN says the disk is owned by someone else.
+[.lead]
+diskown.releasingmismatchedreservation events are presented when we release the reservation because the DOWN says the disk is owned by someone else, which typically does not require corrective action.
 
 == diskown.releasingMismatchedReservation
 *Severity*::

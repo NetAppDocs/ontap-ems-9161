@@ -14,8 +14,8 @@ summary: nvdimm.flash events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when the NVDIMM device exceeds its warning threshold.
+[.lead]
+nvdimm.flash events are presented when the NVDIMM device exceeds its warning threshold which may require contacting NetApp support.
 
 == nvdimm.flash.lifetime.low
 *Severity*::

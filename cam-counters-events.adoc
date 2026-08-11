@@ -14,8 +14,8 @@ summary: cam.counters events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when a device goes away when collecting I/O statistics.
+[.lead]
+cam.counters events are presented when a device goes away when collecting I/O statistics which typically does not require corrective action.
 
 == cam.counters.device.gone
 *Severity*::

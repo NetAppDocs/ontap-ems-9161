@@ -14,8 +14,8 @@ summary: diskown.reassignfailed events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when a disk reassign request fails.
+[.lead]
+diskown.reassignfailed events are presented when a disk reassign request fails which is typically fixed by verifying system state and connectivity.
 
 == diskown.ReassignFailed
 *Severity*::

@@ -14,8 +14,8 @@ summary: vfilermigrate.diskownershipmismatch events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-The SnapMover feature is licensed but the disk ownership model is not using the software-based disk ownership model.
+[.lead]
+vfilermigrate.diskownershipmismatch events are presented when the SnapMover feature is licensed but the disk ownership model is not using the software-based disk ownership model which is typically fixed by following the documented corrective steps.
 
 == vfilermigrate.diskOwnershipMismatch
 *Severity*::

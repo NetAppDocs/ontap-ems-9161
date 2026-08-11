@@ -14,8 +14,8 @@ summary: smbc.avail events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when the primary-bias state is set for the secondary endpoints of the SnapMirror(R) active sync relationships because both of the SnapMirror(R) active sync clusters lose connectivity to the ONTAP Mediator.
+[.lead]
+smbc.avail events are presented when the primary-bias state is set for the secondary endpoints of the SnapMirror(R) active sync relationships because both of the SnapMirror(R) active sync clusters lose connectivity to the ONTAP Mediator which is typically fixed by verifying system state and connectivity.
 
 == smbc.avail.aufoDisabled
 *Severity*::

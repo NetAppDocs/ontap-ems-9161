@@ -14,8 +14,8 @@ summary: mcc.nvmeof events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when the mode of an NVMe-oF port is changed.
+[.lead]
+mcc.nvmeof events are presented when the mode of an NVMe-oF port is changed which typically does not require corrective action.
 
 == mcc.nvmeof.port.modify
 *Severity*::

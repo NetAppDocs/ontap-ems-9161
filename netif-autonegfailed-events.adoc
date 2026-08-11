@@ -14,8 +14,8 @@ summary: netif.autonegfailed events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occcurs when autonegotiation fails and the interface is operating at half-duplex, which might not be the desired mode.
+[.lead]
+netif.autonegfailed events are presented when autonegotiation fails and the interface is operating at half-duplex, which might not be the desired mode which is typically fixed by verifying system state and connectivity.
 
 == netif.autoNegFailed
 *Severity*::

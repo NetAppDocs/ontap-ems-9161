@@ -14,8 +14,8 @@ summary: ata.timeout events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when an I/O request to the ATA driver times out.
+[.lead]
+ata.timeout events are presented when an I/O request to the ATA driver times out which typically does not require corrective action.
 
 == ata.timeout.failed
 *Deprecated*::

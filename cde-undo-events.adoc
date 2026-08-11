@@ -14,8 +14,8 @@ summary: cde.undo events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when undo of cde has to abort.
+[.lead]
+cde.undo events are presented when undo of cde has to abort which typically does not require corrective action.
 
 == cde.undo.abort
 *Severity*::

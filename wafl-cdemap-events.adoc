@@ -14,8 +14,8 @@ summary: wafl.cdemap events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when an inconsistency is discovered in one of the metafile blocks.
+[.lead]
+wafl.cdemap events are presented when an inconsistency is discovered in one of the metafile blocks which typically does not require corrective action.
 
 == wafl.cdemap.repaired.metafile
 *Severity*::

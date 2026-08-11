@@ -14,8 +14,8 @@ summary: monitor.volume events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when one or more file systems are full, typically indicating at least 98% full.
+[.lead]
+monitor.volume events are presented when one or more file systems are full, typically indicating at least 98% full which is typically fixed by updating configuration.
 
 == monitor.volume.full
 *Severity*::

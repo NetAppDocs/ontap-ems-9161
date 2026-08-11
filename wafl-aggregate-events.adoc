@@ -14,8 +14,8 @@ summary: wafl.aggregate events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when an operation is run on an aggregate while the aggregate or any volume of the aggregate is busy.
+[.lead]
+wafl.aggregate events are presented when an operation is run on an aggregate while the aggregate or any volume of the aggregate is busy which typically does not require corrective action.
 
 == wafl.aggregate.busy
 *Severity*::

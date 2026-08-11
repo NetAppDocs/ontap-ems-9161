@@ -14,8 +14,8 @@ summary: config.sameha events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when a disk is multipathed to the same host adapter.
+[.lead]
+config.sameha events are presented when a disk is multipathed to the same host adapter which is typically fixed by following the documented corrective steps.
 
 == config.sameHA
 *Severity*::

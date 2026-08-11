@@ -14,8 +14,8 @@ summary: cluster.switch events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when an insufficient number of cluster switches are discovered for a redundant cluster network configuration.
+[.lead]
+cluster.switch events are presented when cluster switch issues are detected, including insufficient switches for redundancy, power supply failures, unexpected reboots, and unsupported switch models, which may require verifying switch connectivity and configuration.
 
 == cluster.switch.count
 *Severity*::

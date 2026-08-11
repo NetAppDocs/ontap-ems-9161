@@ -14,8 +14,8 @@ summary: disk.senseinfonotvalid events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when invalid sense information is returned.
+[.lead]
+disk.senseinfonotvalid events are presented when invalid sense information is returned which typically does not require corrective action.
 
 == disk.senseInfoNotValid
 *Severity*::

@@ -14,8 +14,8 @@ summary: clam.update events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when the Kernel Cluster Services (KCS) Connectivity, Liveliness, Availability Monitor (CLAM) updates the failover state of the partner.
+[.lead]
+clam.update events are presented when the Kernel Cluster Services (KCS) Connectivity, Liveliness, Availability Monitor (CLAM) updates the failover state of the partner which typically does not require corrective action.
 
 == clam.update.partner.state
 *Severity*::

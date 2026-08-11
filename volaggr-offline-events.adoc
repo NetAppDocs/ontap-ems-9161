@@ -14,8 +14,8 @@ summary: volaggr.offline events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-Some aggregates are forced offline.
+[.lead]
+volaggr.offline events are presented when some aggregates are forced offline which is typically fixed by following the documented corrective steps.
 
 == volaggr.offline
 *Severity*::

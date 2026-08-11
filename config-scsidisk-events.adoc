@@ -14,8 +14,8 @@ summary: config.scsidisk events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when a SCSI disk is found in a CFO configuration.
+[.lead]
+config.scsidisk events are presented when a SCSI disk is found in a CFO configuration which typically does not require corrective action.
 
 == config.SCSIdisk
 *Severity*::

@@ -14,8 +14,8 @@ summary: arl.opaborted events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when an aggregate relocation operation is aborted.
+[.lead]
+arl.opaborted events are presented when an aggregate relocation operation is aborted which is typically fixed by following the documented corrective steps.
 
 == arl.OpAborted
 *Severity*::

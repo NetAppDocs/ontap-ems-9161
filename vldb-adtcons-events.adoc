@@ -14,8 +14,8 @@ summary: vldb.adtcons events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when the Remote Procedure Call (RPC) from the Volume Location Database (VLDB) to the Management Gateway (MGWD) fails.
+[.lead]
+vldb.adtcons events are presented when the Remote Procedure Call (RPC) from the Volume Location Database (VLDB) to the Management Gateway (MGWD) fails which is typically fixed by updating configuration.
 
 == vldb.adtcons.rpcfailure
 *Severity*::

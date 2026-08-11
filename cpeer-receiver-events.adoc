@@ -14,8 +14,8 @@ summary: cpeer.receiver events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when an incoming cluster peer request using the system-generated passphrase.
+[.lead]
+cpeer.receiver events are presented when an incoming cluster peer request using the system-generated passphrase which is typically fixed by verifying system state and connectivity.
 
 == cpeer.receiver.noindex
 *Severity*::

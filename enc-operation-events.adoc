@@ -14,8 +14,8 @@ summary: enc.operation events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when either the rekeying of an encrypted flexible volume, or the conversion of the volume from unencrypted to encrypted, is aborted.
+[.lead]
+enc.operation events are presented when rekey or conversion to encryption operation is completed in a flexible volume which typically does not require corrective action.
 
 == enc.operation.aborted
 *Severity*::

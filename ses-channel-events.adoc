@@ -14,8 +14,8 @@ summary: ses.channel events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when a rescan for enclosure services devices is initiated.
+[.lead]
+ses.channel events are presented when a rescan for enclosure services devices is initiated which typically does not require corrective action.
 
 == ses.channel.rescanInitiated
 *Severity*::

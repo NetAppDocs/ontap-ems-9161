@@ -14,8 +14,8 @@ summary: coredump.micro events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-Microcore generation has completed.
+[.lead]
+coredump.micro events are presented when microcore generation has completed which typically does not require corrective action.
 
 == coredump.micro.completed
 *Severity*::

@@ -14,8 +14,8 @@ summary: config.noswitchcount events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when an attempt to obtain the switch port count fails because it does not exist.
+[.lead]
+config.noswitchcount events are presented when an attempt to obtain the switch port count fails because it does not exist which typically does not require corrective action.
 
 == config.NoSwitchCount
 *Severity*::

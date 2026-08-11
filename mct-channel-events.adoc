@@ -14,8 +14,8 @@ summary: mct.channel events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when the Mirror Cache Transport layer destroys a communication channel between two nodes.
+[.lead]
+mct.channel events are presented when the Mirror Cache Transport layer destroys a communication channel between two nodes which typically does not require corrective action.
 
 == mct.channel.destroy
 *Severity*::

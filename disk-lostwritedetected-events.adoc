@@ -14,8 +14,8 @@ summary: disk.lostwritedetected events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when the system detects a lost write.
+[.lead]
+disk.lostwritedetected events are presented when the system detects a lost write which typically does not require corrective action.
 
 == disk.lostwriteDetected
 *Severity*::

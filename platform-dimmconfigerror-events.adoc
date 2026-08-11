@@ -14,8 +14,8 @@ summary: platform.dimmconfigerror events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when the DIMM configuration of the controller is different from the configuration supported by this model.
+[.lead]
+platform.dimmconfigerror events are presented when the DIMM configuration of the controller is different from the configuration supported by this model which may require contacting NetApp support.
 
 == platform.dimmConfigError
 *Severity*::

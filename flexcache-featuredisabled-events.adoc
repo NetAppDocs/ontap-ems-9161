@@ -14,8 +14,8 @@ summary: flexcache.featuredisabled events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when an attempt is made to mount a FlexCache volume.
+[.lead]
+flexcache.featuredisabled events are presented when an attempt is made to mount a FlexCache volume which is typically fixed by verifying system state and connectivity.
 
 == flexcache.featureDisabled
 *Severity*::

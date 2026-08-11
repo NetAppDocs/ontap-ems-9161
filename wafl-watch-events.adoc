@@ -14,8 +14,8 @@ summary: wafl.watch events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when WAFL(R) "change notify" requests approach the size limit of the inode cache pool.
+[.lead]
+wafl.watch events are presented when wAFL(R) "change notify" requests approach the size limit of the inode cache pool which may require contacting NetApp support.
 
 == wafl.watch.cache.limit.near
 *Severity*::

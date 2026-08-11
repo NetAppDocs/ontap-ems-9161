@@ -14,8 +14,8 @@ summary: mlm.arr events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when the current processing of an error event prevents the Asymmetric Logical Unit Access (ALUA) handler from queuing an affinity switch event.
+[.lead]
+mlm.arr events are presented when the current processing of an error event prevents the Asymmetric Logical Unit Access (ALUA) handler from queuing an affinity switch event which typically does not require corrective action.
 
 == mlm.arr.affinity.not.queued
 *Severity*::

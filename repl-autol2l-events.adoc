@@ -14,8 +14,8 @@ summary: repl.autol2l events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when the replication destination engine encounters an unsupported configuration during a transfer with storage efficiency.
+[.lead]
+repl.autol2l events are presented when the replication destination engine encounters an unsupported configuration during a transfer with storage efficiency which typically does not require corrective action.
 
 == repl.autol2l.unsupported.configuration
 *Severity*::

@@ -14,8 +14,8 @@ summary: sms.status events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when a SnapMirror(R) Sync initialize or resynchronize operation is completed successfully, and the source volume and destination volume are in "in-sync" status.
+[.lead]
+sms.status events are presented when a SnapMirror(R) Sync initialize or resynchronize operation is completed successfully, and the source volume and destination volume are in "in-sync" status which typically does not require corrective action.
 
 == sms.status.in.sync
 *Severity*::

@@ -14,8 +14,8 @@ summary: shelf.reset events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when ONTAP(R) software resets the error counters on a disk shelf module.
+[.lead]
+shelf.reset events are presented when oNTAP(R) software resets the error counters on a disk shelf module which typically does not require corrective action.
 
 == shelf.reset.counters
 *Severity*::

@@ -14,8 +14,8 @@ summary: disk.adaptererror events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when an adapter error is detected.
+[.lead]
+disk.adaptererror events are presented when an adapter error is detected which typically does not require corrective action.
 
 == disk.adapterError
 *Severity*::

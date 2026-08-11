@@ -14,8 +14,8 @@ summary: snapmirror.sockreaderr events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This event is issued when SnapMirror tries to read a very large chunk from the network.
+[.lead]
+snapmirror.sockreaderr events are presented when SnapMirror tries to read a very large chunk from the network, which typically does not require corrective action.
 
 == snapmirror.sockReadErr
 *Severity*::

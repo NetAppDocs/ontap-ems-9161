@@ -14,8 +14,8 @@ summary: arw.volume events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when the anti-ransomware state of a volume is changed.
+[.lead]
+arw.volume events are presented when the anti-ransomware state of a volume is changed which typically does not require corrective action.
 
 == arw.volume.state
 *Severity*::

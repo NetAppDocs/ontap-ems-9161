@@ -14,8 +14,8 @@ summary: asyncdelete.message events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when an async delete job fails.
+[.lead]
+asyncdelete.message events are presented when an async delete job fails which is typically fixed by following the documented corrective steps.
 
 == asyncDelete.message.fail
 *Severity*::

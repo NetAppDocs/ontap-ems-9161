@@ -14,8 +14,8 @@ summary: diskown.mccip events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when MetroCluster(tm) quarter-shelf based drive assignment is enabled or disabled.
+[.lead]
+diskown.mccip events are presented when metroCluster(tm) quarter-shelf based drive assignment is enabled or disabled which typically does not require corrective action.
 
 == diskown.mccip.assignStatus
 *Severity*::

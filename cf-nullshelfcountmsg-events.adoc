@@ -14,8 +14,8 @@ summary: cf.nullshelfcountmsg events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This event occurs if we are sent a NULL negotiated failover shelf count message.
+[.lead]
+cf.nullshelfcountmsg events are presented when if we are sent a NULL negotiated failover shelf count message, which is typically fixed by verifying system state and connectivity.
 
 == cf.nullShelfCountMsg
 *Severity*::

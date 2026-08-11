@@ -14,8 +14,8 @@ summary: callhome.isp events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when the system detects multiple Static Random Access Memory (SRAM) parity errors within a 30 day period.
+[.lead]
+callhome.isp events are presented when the system detects multiple Static Random Access Memory (SRAM) parity errors within a 30 day period which is typically fixed by verifying system state and connectivity.
 
 == callhome.isp.adapter.bad
 *Deprecated*::

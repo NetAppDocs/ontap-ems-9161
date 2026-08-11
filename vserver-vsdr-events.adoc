@@ -14,8 +14,8 @@ summary: vserver.vsdr events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs in Async Vserver-DR setup, when an auditing-configured Vserver is starting up in Read-Only (RO) mode.
+[.lead]
+vserver.vsdr events are presented when, in Async Vserver-DR setup, an auditing-configured Vserver is starting up in Read-Only (RO) mode, which is typically fixed by following the documented corrective steps.
 
 == vserver.vsdr.adt.romode
 *Severity*::

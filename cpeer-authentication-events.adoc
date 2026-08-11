@@ -14,8 +14,8 @@ summary: cpeer.authentication events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when authentication is successfully established with a peer cluster.
+[.lead]
+cpeer.authentication events are presented when authentication is successfully established with a peer cluster which typically does not require corrective action.
 
 == cpeer.authentication.create
 *Severity*::

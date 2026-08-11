@@ -14,8 +14,8 @@ summary: callhome.sync events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when ONTAP(R) cannot create a new base snapshot in a SyncMirror aggregate after multiple attempts.
+[.lead]
+callhome.sync events are presented when oNTAP(R) cannot create a new base snapshot in a SyncMirror aggregate after multiple attempts which may require contacting NetApp support.
 
 == callhome.sync.mirror.nospc
 *Severity*::

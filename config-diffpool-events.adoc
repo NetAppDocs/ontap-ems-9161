@@ -14,8 +14,8 @@ summary: config.diffpool events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when a disk is found to be multipathed to two different mirroring pools.
+[.lead]
+config.diffpool events are presented when a disk is found to be multipathed to two different mirroring pools which may require contacting NetApp support.
 
 == config.DiffPool
 *Severity*::

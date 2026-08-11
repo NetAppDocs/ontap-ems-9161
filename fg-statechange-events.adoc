@@ -14,8 +14,8 @@ summary: fg.statechange events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when the FlexGroup has transitioned from one state to another.
+[.lead]
+fg.statechange events are presented when the FlexGroup has transitioned from one state to another which typically does not require corrective action.
 
 == fg.stateChange
 *Severity*::

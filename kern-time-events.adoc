@@ -14,8 +14,8 @@ summary: kern.time events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-A timestamp reset event occurred.
+[.lead]
+kern.time events are presented when a timestamp reset event occurred which typically does not require corrective action.
 
 == kern.time.stamp.reset
 *Severity*::

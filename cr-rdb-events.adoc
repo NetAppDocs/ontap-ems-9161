@@ -14,8 +14,8 @@ summary: cr.rdb events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when the RDB (replicated database) cannot be updated with the inode counters for a particular scan.
+[.lead]
+cr.rdb events are presented when the RDB (replicated database) cannot be updated with the inode counters for a particular scan which typically does not require corrective action.
 
 == CR.RDB.Counters.Not.Updated
 *Deprecated*::

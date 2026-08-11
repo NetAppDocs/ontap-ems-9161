@@ -14,8 +14,8 @@ summary: rdb.env events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when the cluster management Data Replication Module determines that I/O operations on the node's mroot filesystem are failing.
+[.lead]
+rdb.env events are presented when the cluster management Data Replication Module determines that I/O operations on the node's mroot filesystem are failing which may require contacting NetApp support.
 
 == rdb.env.IOFailure
 *Severity*::

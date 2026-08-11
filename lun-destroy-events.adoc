@@ -14,8 +14,8 @@ summary: lun.destroy events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when a LUN is destroyed.
+[.lead]
+lun.destroy events are presented when a LUN is destroyed which typically does not require corrective action.
 
 == LUN.destroy
 *Severity*::

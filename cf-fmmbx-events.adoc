@@ -14,8 +14,8 @@ summary: cf.fmmbx events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when the system has enabled MCCIP mailbox disk IO policy
+[.lead]
+cf.fmmbx events are presented when the system has enabled MCCIP mailbox disk IO policy which typically does not require corrective action.
 
 == cf.fmmbx.mccip.policy.enabled
 *Severity*::

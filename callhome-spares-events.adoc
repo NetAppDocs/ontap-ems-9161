@@ -14,8 +14,8 @@ summary: callhome.spares events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when one or more RAID groups do not have an eligible spare disk drive available in case of a disk drive failure.
+[.lead]
+callhome.spares events are presented when one or more RAID groups do not have an eligible spare disk drive available in case of a disk drive failure which may require contacting NetApp support.
 
 == callhome.spares.low
 *Severity*::

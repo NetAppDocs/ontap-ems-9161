@@ -14,8 +14,8 @@ summary: config.nopartnerdisks events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs in a High-Availablity (HA> configuration when there are no partner disks.
+[.lead]
+config.nopartnerdisks events are presented when, in a High-Availablity (HA> configuration, there are no partner disks, which is typically fixed by verifying system state and connectivity.
 
 == config.noPartnerDisks
 *Severity*::

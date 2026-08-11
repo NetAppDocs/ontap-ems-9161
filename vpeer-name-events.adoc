@@ -14,8 +14,8 @@ summary: vpeer.name events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when system generated a new name for a Vserver because of a naming conflict with another Vserver in the local cluster.
+[.lead]
+vpeer.name events are presented when system generated a new name for a Vserver because of a naming conflict with another Vserver in the local cluster which typically does not require corrective action.
 
 == vpeer.name.conflict
 *Severity*::

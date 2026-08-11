@@ -14,8 +14,8 @@ summary: config.invalid events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when a SAS (Serial Attached SCSI) port is attached to another SAS port.
+[.lead]
+config.invalid events are presented when a SAS (Serial Attached SCSI) port is attached to another SAS port which is typically fixed by verifying system state and connectivity.
 
 == config.invalid.PortToPort
 *Severity*::

@@ -14,8 +14,8 @@ summary: mcc.network events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when a MetroCluster over IP configuration detects network congestion over the inter-cluster links (ISL) that connect sites and an action is taken to reduce further network congestion.
+[.lead]
+mcc.network events are presented when a MetroCluster over IP configuration detects network congestion over the inter-cluster links (ISL) that connect sites and an action is taken to reduce further network congestion which is typically fixed by verifying system state and connectivity.
 
 == mcc.network.congestion
 *Severity*::

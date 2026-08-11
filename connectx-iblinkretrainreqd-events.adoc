@@ -14,8 +14,8 @@ summary: connectx.iblinkretrainreqd events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when the software detects that the previous InfiniBand link training was unsuccessful.
+[.lead]
+connectx.iblinkretrainreqd events are presented when the software detects that the previous InfiniBand link training was unsuccessful which typically does not require corrective action.
 
 == connectx.IBLinkRetrainReqd
 *Severity*::

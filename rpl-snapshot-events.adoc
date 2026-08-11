@@ -14,8 +14,8 @@ summary: rpl.snapshot events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when SnapMirror(R) or SnapVault(R) cannot delete one of its snapshots.
+[.lead]
+rpl.snapshot events are presented when snapMirror(R) or SnapVault(R) cannot delete one of its snapshots which is typically fixed by updating configuration.
 
 == rpl.snapshot.delete.error
 *Severity*::

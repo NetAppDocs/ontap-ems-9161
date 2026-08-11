@@ -14,8 +14,8 @@ summary: callhome.rtc events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when the voltage for the Real-Time Clock (RTC) battery is low.
+[.lead]
+callhome.rtc events are presented when the voltage for the Real-Time Clock (RTC) battery is low which may require reseating or replacing affected hardware.
 
 == callhome.rtc.battery.low
 *Severity*::

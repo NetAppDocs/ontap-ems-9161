@@ -14,8 +14,8 @@ summary: callhome.sas events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when the SAS adapter fails to initialize the link.
+[.lead]
+callhome.sas events are presented when the SAS adapter does not start the link which is typically fixed by verifying system state and connectivity.
 
 == callhome.sas.init.failed
 *Severity*::

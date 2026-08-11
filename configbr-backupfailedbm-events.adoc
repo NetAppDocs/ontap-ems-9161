@@ -14,8 +14,8 @@ summary: configbr.backupfailedbm events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when when the configuration backup cannot be created.
+[.lead]
+configbr.backupfailedbm events are presented when the configuration backup cannot be created which is typically fixed by verifying system state and updating configuration.
 
 == configbr.backupFailedBM
 *Severity*::

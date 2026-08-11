@@ -14,8 +14,8 @@ summary: config.mirroring events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when the name-service configuration is not replicated in the node.
+[.lead]
+config.mirroring events are presented when the name-service configuration is not replicated in the node which is typically fixed by verifying system state and connectivity.
 
 == config.mirroring.failure
 *Severity*::

@@ -14,8 +14,8 @@ summary: ucore.error events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when there is an error while processing a user space core dump.
+[.lead]
+ucore.error events are presented when there is an error while processing a user space core dump which may require contacting NetApp support.
 
 == ucore.error
 *Severity*::

@@ -14,8 +14,8 @@ summary: nvmens.destroy events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when an NVMe namespace has been destroyed.
+[.lead]
+nvmens.destroy events are presented when an NVMe namespace has been destroyed which typically does not require corrective action.
 
 == NVMeNS.destroy
 *Severity*::

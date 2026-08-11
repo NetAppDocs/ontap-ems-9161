@@ -14,8 +14,8 @@ summary: replication.nomemory events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when there is insufficient memory for the replication transfer to continue.
+[.lead]
+replication.nomemory events are presented when there is insufficient memory for the replication transfer to continue which is typically fixed by following the documented corrective steps.
 
 == replication.noMemory
 *Severity*::

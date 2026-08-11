@@ -14,8 +14,8 @@ summary: dml.initialized events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when the Device Management Layer (DML) is started.
+[.lead]
+dml.initialized events are presented when the Device Management Layer (DML) is started which typically does not require corrective action.
 
 == dml.initialized
 *Severity*::

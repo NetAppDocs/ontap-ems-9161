@@ -14,8 +14,8 @@ summary: repl.archival events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when archival tier scan fails for a cloud snapshot.
+[.lead]
+repl.archival events are presented when archival tier scan fails for a cloud snapshot which typically does not require corrective action.
 
 == repl.archival.ts.failure
 *Severity*::

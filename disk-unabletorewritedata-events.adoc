@@ -14,8 +14,8 @@ summary: disk.unabletorewritedata events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when Data ONTAP(R) receives too many errors reading from a particular location on an ATA disk drive, but its attempt to rewrite the data to the disk drive fails.
+[.lead]
+disk.unabletorewritedata events are presented when data ONTAP(R) receives too many errors reading from a particular location on an ATA disk drive, but its attempt to rewrite the data to the disk drive fails which typically does not require corrective action.
 
 == disk.unableToRewriteData
 *Severity*::

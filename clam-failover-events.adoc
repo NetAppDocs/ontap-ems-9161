@@ -14,8 +14,8 @@ summary: clam.failover events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when the Kernel Cluster Services (KCS) Connectivity, Liveliness, Availability Monitor (CLAM) receives a failover event from high-availability(HA) subsystem.
+[.lead]
+clam.failover events are presented when the Kernel Cluster Services (KCS) Connectivity, Liveliness, Availability Monitor (CLAM) receives a failover event from high-availability(HA) subsystem which typically does not require corrective action.
 
 == clam.failover.event
 *Severity*::

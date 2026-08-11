@@ -14,8 +14,8 @@ summary: coredump.shutdown events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when a core is about to be generated.
+[.lead]
+coredump.shutdown events are presented when a core is about to be generated which typically does not require corrective action.
 
 == coredump.shutdown.trace
 *Severity*::

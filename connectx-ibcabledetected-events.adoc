@@ -14,8 +14,8 @@ summary: connectx.ibcabledetected events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when an InfiniBand cable is detected on the InfiniBand port.
+[.lead]
+connectx.ibcabledetected events are presented when an InfiniBand cable is detected on the InfiniBand port which typically does not require corrective action.
 
 == connectx.IbCableDetected
 *Severity*::

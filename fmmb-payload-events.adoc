@@ -14,8 +14,8 @@ summary: fmmb.payload events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This event is issued when the outbound FM payload area is found to be corrupted.
+[.lead]
+fmmb.payload events are presented when the outbound FM payload area is found to be corrupted, which typically does not require corrective action.
 
 == fmmb.payload.outbound.bad
 *Severity*::

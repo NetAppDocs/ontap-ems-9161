@@ -14,8 +14,8 @@ summary: fm.cpuutilduringarl events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs at the start of an aggregate relocation (ARL) and at the completion of an ARL.
+[.lead]
+fm.cpuutilduringarl events are presented when at the start of an aggregate relocation (ARL) and at the completion of an ARL which typically does not require corrective action.
 
 == fm.cpuUtilDuringARL
 *Deprecated*::

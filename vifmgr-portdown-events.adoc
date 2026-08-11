@@ -14,8 +14,8 @@ summary: vifmgr.portdown events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when a link down event was received on a network port.
+[.lead]
+vifmgr.portdown events are presented when a link down event was received on a network port which typically does not require corrective action.
 
 == vifmgr.portdown
 *Severity*::

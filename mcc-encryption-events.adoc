@@ -14,8 +14,8 @@ summary: mcc.encryption events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when the encryption for NVLog and storage data in a MetroCluster (tm) configuration is disabled.
+[.lead]
+mcc.encryption events are presented when the encryption for NVLog and storage data in a MetroCluster (tm) configuration is disabled which typically does not require corrective action.
 
 == mcc.encryption.disabled
 *Severity*::

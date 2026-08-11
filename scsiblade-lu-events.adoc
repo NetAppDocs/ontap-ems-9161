@@ -14,8 +14,8 @@ summary: scsiblade.lu events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when this node completes a group internal rebuild for an LU.
+[.lead]
+scsiblade.lu events are presented when this node completes a group internal rebuild for an LU which typically does not require corrective action.
 
 == scsiblade.lu.gir.end
 *Severity*::

@@ -14,8 +14,8 @@ summary: wafl.catalog events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This event indicates that WAFL catalog block in nvram is invalid during nvram replay.
+[.lead]
+wafl.catalog events are presented when this event indicates that WAFL catalog block in nvram is invalid during nvram replay which typically does not require corrective action.
 
 == wafl.catalog.invalid
 *Severity*::

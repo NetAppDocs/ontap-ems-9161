@@ -14,8 +14,8 @@ summary: siw.pollingenablefailed events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when SW-iWARP device polling cannot be enabled during the boot-up and SW-iWARP will be running in a degraded state.
+[.lead]
+siw.pollingenablefailed events are presented when sW-iWARP device polling cannot be enabled during the boot-up and SW-iWARP will be running in a degraded state which may require a reboot.
 
 == siw.pollingEnableFailed
 *Severity*::

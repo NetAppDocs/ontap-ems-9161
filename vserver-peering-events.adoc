@@ -14,8 +14,8 @@ summary: vserver.peering events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when the Vserver peer relationship is established.
+[.lead]
+vserver.peering events are presented when the Vserver peer relationship is established which typically does not require corrective action.
 
 == vserver.peering.relCreated
 *Severity*::

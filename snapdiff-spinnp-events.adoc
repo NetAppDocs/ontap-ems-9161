@@ -14,8 +14,8 @@ summary: snapdiff.spinnp events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when the system encounters an unexpected condition while computing differences between snapshots using the SnapDiff v2 API.
+[.lead]
+snapdiff.spinnp events are presented when the system encounters an unexpected condition while computing differences between snapshots using the SnapDiff v2 API which typically does not require corrective action.
 
 == snapdiff.spinnp.abort.mgwd
 *Severity*::

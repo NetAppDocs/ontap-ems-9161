@@ -14,8 +14,8 @@ summary: netgroup.nis events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when the netgroup.byhost remote procedure call to the Network Information Service (NIS) server returns a response that cannot be decoded.
+[.lead]
+netgroup.nis events are presented when the netgroup.byhost remote procedure call to the Network Information Service (NIS) server returns a response that cannot be decoded which is typically fixed by verifying system state and connectivity.
 
 == netgroup.nis.byhost.decode
 *Severity*::

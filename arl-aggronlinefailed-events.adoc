@@ -14,8 +14,8 @@ summary: arl.aggronlinefailed events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when the RAID or WAFL(R) subsystem fails to bring online the aggregate or its containing volumes after relocation.
+[.lead]
+arl.aggronlinefailed events are presented when the RAID or WAFL(R) subsystem fails to bring online the aggregate or its containing volumes after relocation which is typically fixed by verifying system state and connectivity.
 
 == arl.aggrOnlineFailed
 *Severity*::

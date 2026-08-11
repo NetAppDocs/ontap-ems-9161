@@ -14,8 +14,8 @@ summary: callhome.ibretimerprog events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when InfiniBand (IB) retimer programming of the high- availability (HA) interconnect link failed after multiple retry attempts.
+[.lead]
+callhome.ibretimerprog events are presented when infiniBand (IB) retimer programming of the high- availability (HA) interconnect link failed after multiple retry attempts which may require contacting NetApp support.
 
 == callhome.ibretimerprog.fail
 *Severity*::

@@ -14,8 +14,8 @@ summary: aggr.full events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when an aggregate is full.
+[.lead]
+aggr.full events are presented when an aggregate is full which is typically fixed by verifying system state and connectivity.
 
 == aggr.full
 *Severity*::

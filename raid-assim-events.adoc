@@ -14,8 +14,8 @@ summary: raid.assim events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This event is generated when adding an offline disk into a raidtree.
+[.lead]
+raid.assim events are presented when adding an offline disk into a raidtree, which typically does not require corrective action.
 
 == raid.assim.add.offline.disk
 *Severity*::

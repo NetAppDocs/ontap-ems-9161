@@ -14,8 +14,8 @@ summary: dfu.firmwaredownloading events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when firmware is being downloaded for a specific product ID of disks on the system.
+[.lead]
+dfu.firmwaredownloading events are presented when firmware is being downloaded for a specific product ID of disks on the system which typically does not require corrective action.
 
 == dfu.firmwareDownloading
 *Severity*::

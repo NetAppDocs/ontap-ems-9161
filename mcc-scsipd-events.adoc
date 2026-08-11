@@ -14,8 +14,8 @@ summary: mcc.scsipd events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-iSCSI session maintenance thread was signaled to reconnect and destroy SIM paths.
+[.lead]
+mcc.scsipd events are presented when iSCSI session maintenance thread was signaled to reconnect and destroy SIM paths which typically does not require corrective action.
 
 == mcc.scsipd.iScsiSessionReconnectDestroySim
 *Severity*::

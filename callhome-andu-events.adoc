@@ -14,8 +14,8 @@ summary: callhome.andu events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when the automated update of the cluster has been completed.
+[.lead]
+callhome.andu events are presented when the automated update of the cluster has been completed which typically does not require corrective action.
 
 == callhome.andu.completed
 *Severity*::

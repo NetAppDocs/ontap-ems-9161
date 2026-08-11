@@ -14,8 +14,8 @@ summary: nv.extension events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when NVRAM segments of a nvlog client are disabled in a NVRAM section.
+[.lead]
+nv.extension events are presented when nVRAM segments of a nvlog client are disabled in a NVRAM section which typically does not require corrective action.
 
 == nv.extension.disabled
 *Severity*::

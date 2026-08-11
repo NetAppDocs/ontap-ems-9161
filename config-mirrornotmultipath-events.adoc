@@ -14,8 +14,8 @@ summary: config.mirrornotmultipath events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when a disk is not multipathed but synchronous mirroring is enabled.
+[.lead]
+config.mirrornotmultipath events are presented when a disk is not multipathed but synchronous mirroring is enabled which is typically fixed by following the documented corrective steps.
 
 == config.MirrorNotMultiPath
 *Severity*::

@@ -14,8 +14,8 @@ summary: callhome.raidtree events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when an aggregate experiences a configuration corruption error during assimilation of aggregate structures.
+[.lead]
+callhome.raidtree events are presented when an aggregate experiences a configuration corruption error during assimilation of aggregate structures which may require contacting NetApp support.
 
 == callhome.raidtree.assim
 *Severity*::

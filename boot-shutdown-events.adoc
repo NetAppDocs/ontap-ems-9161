@@ -14,8 +14,8 @@ summary: boot.shutdown events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when an error is detected while shutting down the system.
+[.lead]
+boot.shutdown events are presented when an error is detected while shutting down the system which may require contacting NetApp support.
 
 == boot.shutdown.issue
 *Severity*::

@@ -14,8 +14,8 @@ summary: bcomd.fcnvmelifremoved events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when an FC NVMe (Nonvolatile Memory Express) logical interface (LIF) is removed.
+[.lead]
+bcomd.fcnvmelifremoved events are presented when an FC NVMe (Nonvolatile Memory Express) logical interface (LIF) is removed which typically does not require corrective action.
 
 == bcomd.fcNvmeLifRemoved
 *Severity*::

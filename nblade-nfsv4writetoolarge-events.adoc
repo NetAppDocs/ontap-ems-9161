@@ -14,8 +14,8 @@ summary: nblade.nfsv4writetoolarge events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when a client attempts to write over NFSv4 with an amount of data that is greater than the maximum allowed TCP transfer size.
+[.lead]
+nblade.nfsv4writetoolarge events are presented when a client attempts to write over NFSv4 with an amount of data that is greater than the maximum allowed TCP transfer size which is typically fixed by updating configuration.
 
 == Nblade.Nfsv4WriteTooLarge
 *Severity*::

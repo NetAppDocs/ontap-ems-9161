@@ -14,8 +14,8 @@ summary: rlm.orftp events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-A communication error occured while sending or receiving information from the Remote Lan Module (RLM).
+[.lead]
+rlm.orftp events are presented when a communication error occured while sending or receiving information from the Remote Lan Module (RLM) which may require a reboot.
 
 == rlm.orftp.failed
 *Severity*::

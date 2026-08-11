@@ -14,8 +14,8 @@ summary: monitor.shelf events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when the monitor detects that a disk shelf access error has occurred.
+[.lead]
+monitor.shelf events are presented when the monitor detects that a disk shelf access error has occurred which is typically fixed by verifying system state and connectivity.
 
 == monitor.shelf.accessError
 *Severity*::

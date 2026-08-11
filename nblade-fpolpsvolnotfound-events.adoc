@@ -14,8 +14,8 @@ summary: nblade.fpolpsvolnotfound events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when volume corresponding to persistent store is not found.
+[.lead]
+nblade.fpolpsvolnotfound events are presented when volume corresponding to persistent store is not found which is typically fixed by verifying system state and connectivity.
 
 == Nblade.fpolPsVolNotFound
 *Severity*::

@@ -14,8 +14,8 @@ summary: time.stamp events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-Base timestamp event occurred.
+[.lead]
+time.stamp events are presented when base timestamp event occurred which typically does not require corrective action.
 
 == time.stamp.micro.base
 *Severity*::

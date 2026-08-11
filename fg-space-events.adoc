@@ -14,8 +14,8 @@ summary: fg.space events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when conditions that led to previous "fg.space.member.nearlyFull" and "fg.space.member.full" events no longer apply.
+[.lead]
+fg.space events are presented when conditions that led to previous "fg.space.member.nearlyFull" and "fg.space.member.full" events no longer apply which typically does not require corrective action.
 
 == fg.space.member.allOK
 *Severity*::

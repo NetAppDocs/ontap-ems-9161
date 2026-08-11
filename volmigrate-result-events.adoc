@@ -14,8 +14,8 @@ summary: volmigrate.result events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-Description of the result of a volume migration.
+[.lead]
+volmigrate.result events are presented when description of the result of a volume migration which typically does not require corrective action.
 
 == volmigrate.result
 *Severity*::

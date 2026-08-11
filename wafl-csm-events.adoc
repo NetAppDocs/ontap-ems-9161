@@ -14,8 +14,8 @@ summary: wafl.csm events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when the Cluster Session Manager (CSM) session is stopped as part of the shutdown process.
+[.lead]
+wafl.csm events are presented when the Cluster Session Manager (CSM) session is stopped as part of the shutdown process which typically does not require corrective action.
 
 == wafl.csm.sessionStopped
 *Severity*::

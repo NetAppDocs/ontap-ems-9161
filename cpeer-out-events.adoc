@@ -14,8 +14,8 @@ summary: cpeer.out events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when an outgoing cluster peer request authentication fails due to a passphrase mismatch.
+[.lead]
+cpeer.out events are presented when an outgoing cluster peer request authentication fails due to a passphrase mismatch which is typically fixed by verifying system state and connectivity.
 
 == cpeer.out.pp.mismatch
 *Severity*::

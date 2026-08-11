@@ -14,8 +14,8 @@ summary: sas.reset events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when SAS adapter driver resets the expander because of failure status of discovery response.
+[.lead]
+sas.reset events are presented when sAS adapter driver resets the expander because of failure status of discovery response which may require contacting NetApp support.
 
 == sas.reset.exp.discovery.resp
 *Severity*::

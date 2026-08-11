@@ -14,8 +14,8 @@ summary: disk.exceed events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This event is generated during disk qualification testing when READ/WRITE I/O requests exceed their expected maximum completion time.
+[.lead]
+disk.exceed events are presented when READ/WRITE I/O requests exceed their expected maximum completion time during disk qualification testing, which typically does not require corrective action.
 
 == disk.exceed.cmd.completeTime
 *Severity*::

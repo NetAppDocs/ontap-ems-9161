@@ -14,8 +14,8 @@ summary: rsh.enabled events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when rsh is enabled in the cluster using the (privilege: advanced) "security protocol" command.
+[.lead]
+rsh.enabled events are presented when rsh is enabled in the cluster using the (privilege: advanced) "security protocol" command which typically does not require corrective action.
 
 == rsh.enabled
 *Severity*::

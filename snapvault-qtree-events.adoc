@@ -14,8 +14,8 @@ summary: snapvault.qtree events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when SnapVault(R) cannot start a volume-wide snapshot target to complete a manually invoked baseline transfer or resynchronizing transfer.
+[.lead]
+snapvault.qtree events are presented when snapVault(R) cannot start a volume-wide snapshot target to complete a manually invoked baseline transfer or resynchronizing transfer which typically does not require corrective action.
 
 == snapvault.qtree.initiate
 *Severity*::

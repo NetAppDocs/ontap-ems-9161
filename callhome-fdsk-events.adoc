@@ -14,8 +14,8 @@ summary: callhome.fdsk events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when you fail a file system disk drive.
+[.lead]
+callhome.fdsk events are presented when you fail a file system disk drive which typically does not require corrective action.
 
 == callhome.fdsk.admin
 *Severity*::

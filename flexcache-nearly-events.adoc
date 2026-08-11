@@ -14,8 +14,8 @@ summary: flexcache.nearly events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when the total cluster-wide FlexCache provisioned space has nearly reached the licensed limit.
+[.lead]
+flexcache.nearly events are presented when the total cluster-wide FlexCache provisioned space has nearly reached the licensed limit, which can be resolved by installing a new license to increase capacity.
 
 == flexcache.nearly.full
 *Severity*::

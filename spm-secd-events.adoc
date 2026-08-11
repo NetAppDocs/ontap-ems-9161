@@ -14,8 +14,8 @@ summary: spm.secd events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when the Security daemon (secd) involuntarily terminates.
+[.lead]
+spm.secd events are presented when the Security daemon (secd) involuntarily terminates which may require contacting NetApp support.
 
 == spm.secd.process.exit
 *Severity*::

@@ -14,8 +14,8 @@ summary: scsiblade.lun events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when the system detects a change in identifiers (serial number, UUID, device ID) of a LUN.
+[.lead]
+scsiblade.lun events are presented when the system detects a LUN with a duplicate serial number which typically does not require corrective action.
 
 == scsiblade.lun.ids.change
 *Severity*::

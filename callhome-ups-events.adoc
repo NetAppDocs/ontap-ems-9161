@@ -14,8 +14,8 @@ summary: callhome.ups events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when line power for an Uninterruptible Power Supply (UPS) system is restored and the battery power is normal.
+[.lead]
+callhome.ups events are presented when line power for an Uninterruptible Power Supply (UPS) system is restored and the battery power is normal which may require contacting NetApp support.
 
 == callhome.ups.line
 *Severity*::

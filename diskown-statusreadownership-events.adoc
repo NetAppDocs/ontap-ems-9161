@@ -14,8 +14,8 @@ summary: diskown.statusreadownership events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when an event is logged to track that an error was encountered while reading all data ownership blocks at once.
+[.lead]
+diskown.statusreadownership events are presented when an event is logged to track that an error was encountered while reading all data ownership blocks at once which typically does not require corrective action.
 
 == diskown.statusReadOwnership
 *Severity*::

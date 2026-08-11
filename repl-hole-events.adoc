@@ -14,8 +14,8 @@ summary: repl.hole events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when a SnapMirror(R) transfer encounters an unrecoverable RAID error.
+[.lead]
+repl.hole events are presented when a SnapMirror(R) transfer encounters an unrecoverable RAID error which may require contacting NetApp support.
 
 == repl.hole.raid.error
 *Severity*::

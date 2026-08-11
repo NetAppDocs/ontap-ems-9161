@@ -14,8 +14,8 @@ summary: nblade.cifs events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when there is a budget allocation failure for a CIFS subsystem because other CIFS subsystems are consuming too much memory.
+[.lead]
+nblade.cifs events are presented when there is a budget allocation failure for a CIFS subsystem because other CIFS subsystems are consuming too much memory which may require contacting NetApp support.
 
 == Nblade.cifs.budgetAllocFailure
 *Severity*::

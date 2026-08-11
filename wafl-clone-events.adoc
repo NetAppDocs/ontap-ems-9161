@@ -14,8 +14,8 @@ summary: wafl.clone events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message alerts about invalid inherited counters for the clone flexible volume.
+[.lead]
+wafl.clone events are presented when alerts about invalid inherited counters for the clone flexible volume which is typically fixed by following the documented corrective steps.
 
 == wafl.clone.invalid.inherited.counters
 *Severity*::

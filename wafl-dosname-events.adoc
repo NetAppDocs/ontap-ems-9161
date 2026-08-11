@@ -14,8 +14,8 @@ summary: wafl.dosname events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when the system cannot correct duplicate dosnames present in a directory.
+[.lead]
+wafl.dosname events are presented when the system cannot correct duplicate dosnames in a directory, which can be resolved by renaming problematic files from an NFS client and running the wafl dosname command.
 
 == wafl.dosname.repair.fail
 *Severity*::

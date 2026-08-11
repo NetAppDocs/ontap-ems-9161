@@ -14,8 +14,8 @@ summary: callhome.clam events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when the Kernel Cluster Services (KCS) Connectivity, Liveness, Availability Monitor (CLAM) determines that one of the nodes is out of "cluster quorum".
+[.lead]
+callhome.clam events are presented when the Kernel Cluster Services (KCS) Connectivity, Liveness, Availability Monitor (CLAM) determines that one of the nodes is out of "cluster quorum" which is typically fixed by verifying system state and updating configuration.
 
 == callhome.clam.node.ooq
 *Severity*::

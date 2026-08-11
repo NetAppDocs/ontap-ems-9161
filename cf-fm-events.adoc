@@ -14,8 +14,8 @@ summary: cf.fm events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs at the start of a takeover, end of a successful takeover, start of a CFO giveback, and completion of an SFO giveback.
+[.lead]
+cf.fm events are presented when at the start of a takeover, end of a successful takeover, start of root aggregate giveback, and completion of data aggregate giveback which typically does not require corrective action.
 
 == cf.fm.cpuUtilDuringTOAndGB
 *Deprecated*::

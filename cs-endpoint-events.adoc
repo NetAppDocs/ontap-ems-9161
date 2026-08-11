@@ -14,8 +14,8 @@ summary: cs.endpoint events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when volume delete operations attempts to clean-up snapmirror resources and finds that there are no cloud snapshots associated with the volume.
+[.lead]
+cs.endpoint events are presented when volume delete operations attempts to clean-up snapmirror resources and finds that there are no cloud snapshots associated with the volume which typically does not require corrective action.
 
 == cs.endpoint.has.no.snapshots
 *Severity*::

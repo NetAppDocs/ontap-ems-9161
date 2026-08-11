@@ -14,8 +14,8 @@ summary: raid.sp events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when one or more aggregate's capacity is not increased as part of the storage pool add job.
+[.lead]
+raid.sp events are presented when one or more aggregate's capacity is not increased as part of the storage pool add job which may require contacting NetApp support.
 
 == raid.sp.add.aggr.grow.noDone
 *Severity*::

@@ -14,8 +14,8 @@ summary: vifmgr.lifadded events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when an administrator action causes a logical interface (LIF) IP address to be added.
+[.lead]
+vifmgr.lifadded events are presented when an administrator action causes a logical interface (LIF) IP address to be added which typically does not require corrective action.
 
 == vifmgr.lifadded.byadmin
 *Severity*::

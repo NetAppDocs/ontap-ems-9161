@@ -14,8 +14,8 @@ summary: snmp.warmstart events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when the SNMP daemon is reinitializing itself with a warmStart.
+[.lead]
+snmp.warmstart events are presented when the SNMP daemon is reinitializing itself with a warmStart which typically does not require corrective action.
 
 == snmp.warmstart.trap
 *Severity*::

@@ -14,8 +14,8 @@ summary: vol.log events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when the volume or aggregate allocates more space than it can honor by way of reservations, or the aggregate has allocated more space than it can honor by way of guarantees.
+[.lead]
+vol.log events are presented when the volume or aggregate allocates more space than it can honor by way of reservations, or the aggregate has allocated more space than it can honor by way of guarantees which is typically fixed by updating configuration.
 
 == vol.log.overalloc
 *Severity*::

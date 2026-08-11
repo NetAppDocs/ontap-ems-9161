@@ -14,8 +14,8 @@ summary: fabricpool.cloud events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when a cloud subscription license for FabricPools has been added.
+[.lead]
+fabricpool.cloud events are presented when a cloud subscription license for FabricPools has been added which typically does not require corrective action.
 
 == fabricpool.cloud.subscription.added
 *Severity*::

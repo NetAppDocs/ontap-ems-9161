@@ -14,8 +14,8 @@ summary: scsiblade.vserver events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when a command or other internal operation becomes blocked within Data ONTAP(R).
+[.lead]
+scsiblade.vserver events are presented when a command or other internal operation becomes blocked within Data ONTAP(R) which may require contacting NetApp support.
 
 == scsiblade.vserver.op.timeout
 *Severity*::

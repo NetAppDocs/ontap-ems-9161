@@ -14,8 +14,8 @@ summary: snapmirror.multipath events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This event is issued during boot or during takeover when the filer is unable to setup the necessary infrastructure required for SnapMirror multipathing support.
+[.lead]
+snapmirror.multipath events are presented when the filer is cannot setup the necessary infrastructure required for SnapMirror multipathing support during boot or during takeover, which is typically fixed by verifying system state and connectivity.
 
 == snapmirror.multipath.initErr
 *Severity*::

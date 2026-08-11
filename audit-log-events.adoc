@@ -14,8 +14,8 @@ summary: audit.log events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when there is an issue during message auditing.
+[.lead]
+audit.log events are presented when there is an issue during message auditing which typically does not require corrective action.
 
 == audit.log.event
 *Severity*::

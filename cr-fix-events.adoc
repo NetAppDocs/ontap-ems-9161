@@ -14,8 +14,8 @@ summary: cr.fix events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when corrective action for corrupt redirector file failed.
+[.lead]
+cr.fix events are presented when corrective action for corrupt redirector file failed which typically does not require corrective action.
 
 == CR.Fix.Corrupt.Redir.Failed
 *Deprecated*::

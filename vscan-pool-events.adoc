@@ -14,8 +14,8 @@ summary: vscan.pool events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when the Vscan scanner pool is automatically activated.
+[.lead]
+vscan.pool events are presented when the Vscan scanner pool is automatically activated which typically does not require corrective action.
 
 == vscan.pool.autoActivated
 *Severity*::

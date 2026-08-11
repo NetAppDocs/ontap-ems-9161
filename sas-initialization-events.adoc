@@ -14,8 +14,8 @@ summary: sas.initialization events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-The SAS adapter failed to initialize the link and appears to be unattached/disconnected.
+[.lead]
+sas.initialization events are presented when the SAS adapter failed to initialize the link and appears to be unattached/disconnected which is typically fixed by verifying system state and connectivity.
 
 == sas.initialization.failed
 *Severity*::

@@ -14,8 +14,8 @@ summary: raid.poolsort events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when the system detects an invalid number of disks on a single channel.
+[.lead]
+raid.poolsort events are presented when the system detects an invalid number of disks on a single channel which typically does not require corrective action.
 
 == raid.poolsort.disks_per_channel
 *Severity*::

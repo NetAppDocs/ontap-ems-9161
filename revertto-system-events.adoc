@@ -14,8 +14,8 @@ summary: revertto.system events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when the system is rebooting to complete the revert process.
+[.lead]
+revertto.system events are presented when the system is rebooting to complete the revert process which typically does not require corrective action.
 
 == revertTo.system.reboot
 *Severity*::

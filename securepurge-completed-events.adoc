@@ -14,8 +14,8 @@ summary: securepurge.completed events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when a secure purge operation is completed in a flexible volume.
+[.lead]
+securepurge.completed events are presented when a secure purge operation is completed in a flexible volume which typically does not require corrective action.
 
 == securepurge.completed
 *Severity*::

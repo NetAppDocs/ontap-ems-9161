@@ -14,8 +14,8 @@ summary: nblade.sectracequeoverload events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when there are too many Sectrace work items.
+[.lead]
+nblade.sectracequeoverload events are presented when there are too many Sectrace work items which is typically fixed by verifying system state and connectivity.
 
 == Nblade.sectraceQueOverload
 *Severity*::

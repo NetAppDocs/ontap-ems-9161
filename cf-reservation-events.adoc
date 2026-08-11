@@ -14,8 +14,8 @@ summary: cf.reservation events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when the system does not halt on a disk reservation conflict and the reservation is not found on the disk.
+[.lead]
+cf.reservation events are presented when the system does not halt on a disk reservation conflict and the reservation is not found on the disk which typically does not require corrective action.
 
 == cf.reservation.disk.notFound
 *Severity*::

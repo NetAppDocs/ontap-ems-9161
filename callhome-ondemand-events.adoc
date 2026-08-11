@@ -14,8 +14,8 @@ summary: callhome.ondemand events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message normally occurs when NetApp technical support has remotely requested an AutoSupport or 'call home' message of type TEST.
+[.lead]
+callhome.ondemand events are presented when NetApp technical support has remotely requested an AutoSupport or 'call home' message of type TEST, which typically does not require corrective action.
 
 == callhome.ondemand.invoke
 *Severity*::

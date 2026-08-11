@@ -14,8 +14,8 @@ summary: fabric.sdm events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when the system fails to allocate a message for storage device monitor (SDM) notification.
+[.lead]
+fabric.sdm events are presented when the system fails to allocate a message for storage device monitor (SDM) notification which typically does not require corrective action.
 
 == fabric.sdm.mem.alloc
 *Severity*::

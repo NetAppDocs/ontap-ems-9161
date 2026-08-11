@@ -14,8 +14,8 @@ summary: cf.ndustart events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when a nondisruptive upgrade starts.
+[.lead]
+cf.ndustart events are presented when a nondisruptive upgrade starts which typically does not require corrective action.
 
 == cf.nduStart
 *Severity*::

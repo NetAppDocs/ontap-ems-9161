@@ -14,8 +14,8 @@ summary: smbc.pfo events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when the SnapMirror(R) active sync planned failover operation completes.
+[.lead]
+smbc.pfo events are presented when the SnapMirror(R) active sync planned failover operation completes which typically does not require corrective action.
 
 == smbc.pfo.completed
 *Severity*::

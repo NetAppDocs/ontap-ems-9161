@@ -14,8 +14,8 @@ summary: nblade.fpolpsvolnospace events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when persistent store volume is full.
+[.lead]
+nblade.fpolpsvolnospace events are presented when persistent store volume is full which is typically fixed by updating configuration.
 
 == Nblade.fpolPsVolNoSpace
 *Severity*::

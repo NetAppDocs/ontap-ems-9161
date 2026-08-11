@@ -14,8 +14,8 @@ summary: spm.crs events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when the configuration replication server (crs) involuntarily terminates.
+[.lead]
+spm.crs events are presented when the configuration replication server (crs) involuntarily terminates which may require restarting affected services or nodes.
 
 == spm.crs.process.exit
 *Severity*::

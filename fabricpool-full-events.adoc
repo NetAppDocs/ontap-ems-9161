@@ -14,8 +14,8 @@ summary: fabricpool.full events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when the total, cluster-wide FabricPool space usage of object stores from capacity-licensed providers has reached the license limit.
+[.lead]
+fabricpool.full events are presented when the total, cluster-wide FabricPool space usage of object stores from capacity-licensed providers has reached the license limit which is typically fixed by verifying system state and updating configuration.
 
 == fabricpool.full
 *Severity*::

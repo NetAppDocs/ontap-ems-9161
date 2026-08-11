@@ -14,8 +14,8 @@ summary: ha.tp events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when the testpoint is encountered or hit.
+[.lead]
+ha.tp events are presented when the testpoint is encountered or hit which typically does not require corrective action.
 
 == ha.tp.testPointHit
 *Severity*::

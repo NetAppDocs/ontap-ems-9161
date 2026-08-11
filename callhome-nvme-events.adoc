@@ -14,8 +14,8 @@ summary: callhome.nvme events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when a directly attached NVMe module has worn out and is at the end of its write life.
+[.lead]
+callhome.nvme events are presented when a directly attached NVMe module has worn out and is at the end of its write life which may require contacting NetApp support.
 
 == callhome.nvme.exhausted
 *Severity*::

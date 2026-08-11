@@ -14,8 +14,8 @@ summary: cna.dump events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when an unexpected event or illegal condition is detected by the Converged Network Adapter (CNA) driver and the contents of the adapter's static RAM and memory must be dumped.
+[.lead]
+cna.dump events are presented when an unexpected event or illegal condition is detected by the Converged Network Adapter (CNA) driver and the contents of the adapter's static RAM and memory must be dumped which is typically fixed by following the documented corrective steps.
 
 == cna.dump
 *Severity*::

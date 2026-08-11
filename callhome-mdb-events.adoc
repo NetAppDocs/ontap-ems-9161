@@ -14,8 +14,8 @@ summary: callhome.mdb events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs after an unsuccessful recovery of an inconsistent management database.
+[.lead]
+callhome.mdb events are presented when after an unsuccessful recovery of an inconsistent management database which may require contacting NetApp support.
 
 == callhome.mdb.recovery.unsuccessful
 *Severity*::

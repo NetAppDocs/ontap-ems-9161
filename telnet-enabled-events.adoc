@@ -14,8 +14,8 @@ summary: telnet.enabled events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when telnet is enabled in the cluster using the (privilege: advanced) "security protocol" command.
+[.lead]
+telnet.enabled events are presented when telnet is enabled in the cluster using the (privilege: advanced) "security protocol" command which typically does not require corrective action.
 
 == telnet.enabled
 *Severity*::

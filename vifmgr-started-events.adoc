@@ -14,8 +14,8 @@ summary: vifmgr.started events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs to notify you that the Logical Interface Manager (VIFMgr) started.
+[.lead]
+vifmgr.started events are presented when to notify you that the Logical Interface Manager (VIFMgr) started which typically does not require corrective action.
 
 == vifmgr.started
 *Severity*::

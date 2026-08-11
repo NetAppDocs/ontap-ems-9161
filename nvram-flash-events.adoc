@@ -14,8 +14,8 @@ summary: nvram.flash events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs periodically when the capacity of the NVRAM flash memory spare blocks is low, before it becomes critically low.
+[.lead]
+nvram.flash events are presented when the capacity of the NVRAM flash memory spare blocks is low, before it becomes critically low periodically, which may require contacting NetApp support.
 
 == nvram.flash.spare.low
 *Severity*::

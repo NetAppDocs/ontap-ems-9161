@@ -14,8 +14,8 @@ summary: diskown.changingowner events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when the ownership of a disk is being changed.
+[.lead]
+diskown.changingowner events are presented when the ownership of a disk is being changed which typically does not require corrective action.
 
 == diskown.changingOwner
 *Severity*::

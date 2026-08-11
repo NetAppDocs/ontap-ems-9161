@@ -14,8 +14,8 @@ summary: vol.language events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This event is issued when the language of an aggregate or a volume is changed.
+[.lead]
+vol.language events are presented when the language of an aggregate or a volume is changed, which typically does not require corrective action.
 
 == vol.language.changed
 *Severity*::

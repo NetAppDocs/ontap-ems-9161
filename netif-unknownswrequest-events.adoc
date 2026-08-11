@@ -14,8 +14,8 @@ summary: netif.unknownswrequest events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when a network driver does not recognize a request from another software module, possibly because the request is invalid.
+[.lead]
+netif.unknownswrequest events are presented when a network driver does not recognize a request from another software module, possibly because the request is invalid which may require a reboot.
 
 == netif.unknownSwRequest
 *Severity*::

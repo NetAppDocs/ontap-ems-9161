@@ -14,8 +14,8 @@ summary: snaplock.vol events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This event is generated when the SnapLock(R) volume compliance clock time is skewed from the SnapLock system compliance clock by more than one day.
+[.lead]
+snaplock.vol events are presented when the SnapLock(R) volume compliance clock time is skewed from the SnapLock system compliance clock by more than one day, which typically does not require corrective action.
 
 == snaplock.vol.compclock.skewed
 *Severity*::

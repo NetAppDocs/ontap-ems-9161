@@ -14,8 +14,8 @@ summary: raid.tetris events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when the system detects a block number mismatch during a write operation.
+[.lead]
+raid.tetris events are presented when the system detects a block number mismatch during a write operation which typically does not require corrective action.
 
 == raid.tetris.cksum.bno
 *Severity*::

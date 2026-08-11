@@ -14,8 +14,8 @@ summary: multi.dsk events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when multiple errors are detected during checksum verification, and the adapter is not taken offline or the "disk.offline_adapter.enable" option is disabled.
+[.lead]
+multi.dsk events are presented when multiple errors are detected during checksum verification, and the adapter is not taken offline or the "disk.offline_adapter.enable" option is disabled which may require contacting NetApp support.
 
 == multi.dsk.cksum.err
 *Severity*::

@@ -14,8 +14,8 @@ summary: callhome.bad events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when correctable ECC errors are masked off, possibly due to bad or poorly seated memory or a faulty motherboard.
+[.lead]
+callhome.bad events are presented when correctable ECC errors are masked off, possibly due to bad or poorly seated memory or a faulty motherboard which may require reseating or replacing affected hardware.
 
 == callhome.bad.ram
 *Severity*::

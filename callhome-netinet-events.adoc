@@ -14,8 +14,8 @@ summary: callhome.netinet events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when a new node that is trying to join the cluster is using the same IP address that is configured on this node's cluster interface.
+[.lead]
+callhome.netinet events are presented when a new node that is trying to join the cluster is using the same IP address that is configured on this node's cluster interface which is typically fixed by verifying system state and connectivity.
 
 == callhome.netinet.dup.clustIP
 *Severity*::

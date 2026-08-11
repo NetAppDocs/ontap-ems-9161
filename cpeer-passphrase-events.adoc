@@ -14,8 +14,8 @@ summary: cpeer.passphrase events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when the cluster peer offer for anonymous cluster with system-generated passphrase expired and deleted.
+[.lead]
+cpeer.passphrase events are presented when the cluster peer offer for anonymous cluster with system-generated passphrase expired and deleted which is typically fixed by following the documented corrective steps.
 
 == cpeer.passphrase.expired
 *Severity*::

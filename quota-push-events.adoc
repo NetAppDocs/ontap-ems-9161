@@ -14,8 +14,8 @@ summary: quota.push events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when the system has completed pushing rules into the quota database.
+[.lead]
+quota.push events are presented when the system has completed pushing rules into the quota database which typically does not require corrective action.
 
 == quota.push.rules.complete
 *Severity*::

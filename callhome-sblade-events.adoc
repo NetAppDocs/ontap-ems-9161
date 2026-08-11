@@ -14,8 +14,8 @@ summary: callhome.sblade events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when LUN import cannot resume after takeover/giveback.
+[.lead]
+callhome.sblade events are presented when lUN import cannot resume after takeover/giveback which may require contacting NetApp support.
 
 == callhome.sblade.import.susp
 *Severity*::

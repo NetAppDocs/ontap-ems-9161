@@ -14,8 +14,8 @@ summary: callhome.nvdimm events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This event occurs when excessive correctable error-correcting code (ECC) memory errors are reported by the NVDIMM.
+[.lead]
+callhome.nvdimm events are presented when excessive correctable error-correcting code (ECC) memory errors are reported by the NVDIMM, which is typically fixed by verifying system state and connectivity.
 
 == callhome.nvdimm.cecc
 *Severity*::

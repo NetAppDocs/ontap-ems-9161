@@ -14,8 +14,8 @@ summary: mpt.busreg events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when physical disk bus registration fails in the message processing technology (MPT) adapter driver.
+[.lead]
+mpt.busreg events are presented when physical disk bus registration fails in the message processing technology (MPT) adapter driver which is typically fixed by verifying system state and connectivity.
 
 == mpt.busreg.phydisk.failed
 *Severity*::

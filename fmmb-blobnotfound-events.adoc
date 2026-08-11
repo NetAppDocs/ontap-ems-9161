@@ -14,8 +14,8 @@ summary: fmmb.blobnotfound events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when a mailbox 'blob' is not read from the on-disk mailbox data structure.
+[.lead]
+fmmb.blobnotfound events are presented when a mailbox 'blob' is not read from the on-disk mailbox data structure which is typically fixed by updating configuration.
 
 == fmmb.BlobNotFound
 *Severity*::

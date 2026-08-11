@@ -14,8 +14,8 @@ summary: nvmens.online events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when an NVMe namespace is brought online manually.
+[.lead]
+nvmens.online events are presented when an NVMe namespace is brought online manually which typically does not require corrective action.
 
 == NVMeNS.online
 *Severity*::

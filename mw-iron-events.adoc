@@ -14,8 +14,8 @@ summary: mw.iron events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message is used to notify idlog purge at mount after 7 consecutive unsuccessful iron runs.
+[.lead]
+mw.iron events are presented when is used to notify idlog purge at mount after 7 consecutive unsuccessful iron runs which typically does not require corrective action.
 
 == mw.iron.mount.idlog.purge
 *Severity*::

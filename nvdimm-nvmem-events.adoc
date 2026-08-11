@@ -14,8 +14,8 @@ summary: nvdimm.nvmem events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when NVDIMM-based NVMEM checks fail.
+[.lead]
+nvdimm.nvmem events are presented when nVDIMM-based NVMEM checks fail which is typically fixed by verifying system state and connectivity.
 
 == nvdimm.nvmem.checkfail
 *Severity*::

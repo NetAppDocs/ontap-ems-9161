@@ -14,8 +14,8 @@ summary: diskown.aashelf events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when the controller cannot automatically assign a disk because disks on the shelf and disks on the stack have the same owner but belong to different pools.
+[.lead]
+diskown.aashelf events are presented when the controller cannot automatically assign a disk because disks on the shelf and disks on the stack have the same owner but belong to different pools which is typically fixed by verifying system state and connectivity.
 
 == diskown.AAShelf.InterPools
 *Severity*::

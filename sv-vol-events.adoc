@@ -14,8 +14,8 @@ summary: sv.vol events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when the renaming operation of SnapVault(R) snapshots belonging to a certain volume fails, even though the "vFiler rename" or "vFiler move" operation was successful.
+[.lead]
+sv.vol events are presented when the renaming operation of SnapVault(R) snapshots belonging to a certain volume fails, even though the "vFiler rename" or "vFiler move" operation was successful which is typically fixed by updating configuration.
 
 == SV.vol.snapshot.rename.error
 *Severity*::

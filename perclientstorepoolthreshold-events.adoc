@@ -14,8 +14,8 @@ summary: perclientstorepoolthreshold events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when one of the NFSv4 clients is consuming more resources of a particular store pool type.
+[.lead]
+perclientstorepoolthreshold events are presented when one of the NFSv4 clients is consuming more resources of a particular store pool type which typically does not require corrective action.
 
 == PerClientStorePoolThreshold
 *Severity*::

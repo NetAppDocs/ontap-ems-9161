@@ -14,8 +14,8 @@ summary: nameserv.config events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when a file write for name service configuration fails.
+[.lead]
+nameserv.config events are presented when a file write for name service configuration fails which is typically fixed by verifying system state and connectivity.
 
 == nameserv.config.write.failed
 *Severity*::

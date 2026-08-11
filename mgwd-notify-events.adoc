@@ -14,8 +14,8 @@ summary: mgwd.notify events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message reports the result of the Management Gateway process notification attempt to the Connectivity, Liveliness, Availability Monitor (CLAM) instance on its high-availability (HA) partner node that this node is undergoing a planned shutdown.
+[.lead]
+mgwd.notify events are presented when reports the result of the Management Gateway process notification attempt to the Connectivity, Liveliness, Availability Monitor (CLAM) instance on its high-availability (HA) partner node that this node is undergoing a planned shutdown which typically does not require corrective action.
 
 == mgwd.notify.halt.result
 *Severity*::

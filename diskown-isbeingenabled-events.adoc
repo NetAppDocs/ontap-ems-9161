@@ -14,8 +14,8 @@ summary: diskown.isbeingenabled events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This event is issued when the system is being converted from non-software based disk ownership to software based disk ownership
+[.lead]
+diskown.isbeingenabled events are presented when the system is being converted from non-software based disk ownership to software based disk ownership, which typically does not require corrective action.
 
 == diskown.isBeingEnabled
 *Severity*::

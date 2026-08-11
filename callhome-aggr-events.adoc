@@ -14,8 +14,8 @@ summary: callhome.aggr events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs after WAFL(R) Iron (wafliron) detects and repairs corruption in an aggregate metafile.
+[.lead]
+callhome.aggr events are presented when after WAFL(R) Iron (wafliron) detects and repairs corruption in an aggregate metafile which is typically fixed by verifying system state and connectivity.
 
 == callhome.aggr.meta.repair
 *Severity*::

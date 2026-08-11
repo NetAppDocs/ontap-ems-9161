@@ -14,8 +14,8 @@ summary: ses.status events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when a failure has been detected in ACP processor that provides alternate control path capability.
+[.lead]
+ses.status events are presented when a failure has been detected in ACP processor that provides alternate control path capability which may require reseating or replacing affected hardware.
 
 == ses.status.ACPError
 *Severity*::

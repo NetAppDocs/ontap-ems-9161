@@ -14,8 +14,8 @@ summary: raid.debug events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-The SCSI debug event.
+[.lead]
+raid.debug events are presented when the SCSI debug event which typically does not require corrective action.
 
 == raid.debug
 *Severity*::

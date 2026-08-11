@@ -14,8 +14,8 @@ summary: iscsi.loginfailure events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This event is issued when an initiator fails an iSCSI login attempt.
+[.lead]
+iscsi.loginfailure events are presented when an initiator fails an iSCSI login attempt, which is typically fixed by updating configuration.
 
 == iscsi.loginFailure
 *Severity*::

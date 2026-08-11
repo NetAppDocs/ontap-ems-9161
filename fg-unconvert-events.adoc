@@ -14,8 +14,8 @@ summary: fg.unconvert events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when a member of a FlexGroup fails to be converted into an independent FlexVol(R) volume.
+[.lead]
+fg.unconvert events are presented when a member of a FlexGroup fails to be converted into an independent FlexVol(R) volume which may require contacting NetApp support.
 
 == fg.unconvert.critical.fail
 *Severity*::

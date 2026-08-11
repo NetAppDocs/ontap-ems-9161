@@ -14,8 +14,8 @@ summary: monitor.brokendisk events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when a node is in a degraded state because of a broken disk.
+[.lead]
+monitor.brokendisk events are presented when a node is in a degraded state because of a broken disk which is typically fixed by verifying system state and updating configuration.
 
 == monitor.brokenDisk.notice
 *Severity*::

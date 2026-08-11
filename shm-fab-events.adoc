@@ -14,8 +14,8 @@ summary: shm.fab events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when an error is received while writing the failure bytes.
+[.lead]
+shm.fab events are presented when an error is received while writing the failure bytes which typically does not require corrective action.
 
 == shm.fab.writeError
 *Severity*::

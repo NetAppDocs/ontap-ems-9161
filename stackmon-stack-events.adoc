@@ -14,8 +14,8 @@ summary: stackmon.stack events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when the system cannot determine the stack ID for a disk shelf.
+[.lead]
+stackmon.stack events are presented when the system cannot determine the stack ID for a disk shelf which is typically fixed by verifying system state and connectivity.
 
 == stackmon.stack.id.conflict
 *Severity*::

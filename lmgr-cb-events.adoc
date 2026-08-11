@@ -14,8 +14,8 @@ summary: lmgr.cb events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when a lock manager waiting lock callback object cannot be allocated due to reaching the limit for waiting lock callback objects in the associated pool.
+[.lead]
+lmgr.cb events are presented when a lock manager waiting lock callback object cannot be allocated due to reaching the limit for waiting lock callback objects in the associated pool which is typically fixed by verifying system state and connectivity.
 
 == lmgr.cb.waiting.limit.hit
 *Severity*::

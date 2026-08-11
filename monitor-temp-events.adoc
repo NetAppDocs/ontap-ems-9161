@@ -14,8 +14,8 @@ summary: monitor.temp events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when the controller module temperature is not readable.
+[.lead]
+monitor.temp events are presented when the controller module temperature is not readable which may require reseating or replacing affected hardware.
 
 == monitor.temp.unreadable
 *Severity*::

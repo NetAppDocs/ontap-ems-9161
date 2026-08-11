@@ -14,8 +14,8 @@ summary: moveagent.abort events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This event is issued during volume move when cutover is aborted because the volume took too long to replicate.
+[.lead]
+moveagent.abort events are presented when cutover is aborted because the volume took too long to replicate during volume move, which is typically fixed by following the documented corrective steps.
 
 == moveagent.abort.cutover
 *Severity*::

@@ -14,8 +14,8 @@ summary: shelf.identify events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when the user turns on the disk shelf's Identify mode.
+[.lead]
+shelf.identify events are presented when the user turns on the disk shelf's Identify mode which typically does not require corrective action.
 
 == shelf.identify.start
 *Severity*::

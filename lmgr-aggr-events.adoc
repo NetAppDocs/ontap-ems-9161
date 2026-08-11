@@ -14,8 +14,8 @@ summary: lmgr.aggr events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when locks established through CIFS Continuously Available (CA) shares on an aggregate are dropped after takeover, giveback, or aggregate relocation.
+[.lead]
+lmgr.aggr events are presented when locks established through CIFS Continuously Available (CA) shares on an aggregate are dropped after takeover, giveback, or aggregate relocation which is typically fixed by verifying system state and connectivity.
 
 == lmgr.aggr.CA.locks.dropped
 *Severity*::

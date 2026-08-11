@@ -14,8 +14,8 @@ summary: flexcache.revoke events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when a FlexCache(R) origin volume fails to revoke cached data from a FlexCache volume due to a Cluster Session Manager (CSM) communication error.
+[.lead]
+flexcache.revoke events are presented when a FlexCache origin volume fails to revoke cached data from a FlexCache volume due to a CSM communication error, which may be resolved by verifying network connectivity and cluster peering relationships.
 
 == flexcache.revoke.csm.failure
 *Severity*::

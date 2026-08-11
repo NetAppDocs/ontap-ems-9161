@@ -14,8 +14,8 @@ summary: passwd.changed events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-The password for a user has been changed.
+[.lead]
+passwd.changed events are presented when the password for a user has been changed which typically does not require corrective action.
 
 == passwd.changed
 *Severity*::

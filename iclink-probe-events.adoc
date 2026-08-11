@@ -14,8 +14,8 @@ summary: iclink.probe events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when the system cannot detect a High Availability (HA) interconnect card, making HA communication inoperable.
+[.lead]
+iclink.probe events are presented when the system cannot detect a High Availability (HA) interconnect card, making HA communication inoperable which is typically fixed by verifying system state and connectivity.
 
 == iclink.probe.error
 *Severity*::

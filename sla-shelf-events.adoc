@@ -14,8 +14,8 @@ summary: sla.shelf events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when a shelf firmware module is rebooted administratively, or when a reboot occurs normally when the system powers up, the firmware is updated, or the alternate control path (ACP) is reset.
+[.lead]
+sla.shelf events are presented when a shelf firmware module is rebooted administratively, or when a reboot occurs normally when the system powers up, the firmware is updated, or the alternate control path (ACP) is reset which typically does not require corrective action.
 
 == sla.shelf.mod.reboot
 *Severity*::

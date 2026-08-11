@@ -14,8 +14,8 @@ summary: krb.config events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-The CIFS server's security settings could not be written to the configuration file on this node.
+[.lead]
+krb.config events are presented when the CIFS server's security settings could not be written to the configuration file on this node which is typically fixed by verifying system state and updating configuration.
 
 == krb.config.updateFail
 *Severity*::

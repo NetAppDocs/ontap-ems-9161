@@ -14,8 +14,8 @@ summary: xfcvi.cm events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when connection requests times out.
+[.lead]
+xfcvi.cm events are presented when connection requests times out which typically does not require corrective action.
 
 == xfcvi.cm.timedout
 *Severity*::

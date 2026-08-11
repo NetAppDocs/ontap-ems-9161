@@ -14,8 +14,8 @@ summary: ses.giveback events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when SCSI Enclosure Services (SES) is restarted after giveback.
+[.lead]
+ses.giveback events are presented when sCSI Enclosure Services (SES) is restarted after giveback which typically does not require corrective action.
 
 == ses.giveback.restartAfter
 *Severity*::

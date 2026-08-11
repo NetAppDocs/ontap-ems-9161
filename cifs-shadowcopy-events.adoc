@@ -14,8 +14,8 @@ summary: cifs.shadowcopy events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when a shadow copy set is automatically aborted when no activity has been detected for a certain period of time.
+[.lead]
+cifs.shadowcopy events are presented when a shadow copy set is automatically aborted when no activity has been detected for a certain period of time which is typically fixed by verifying system state and connectivity.
 
 == cifs.shadowcopy.abort
 *Severity*::

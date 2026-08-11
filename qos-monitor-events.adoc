@@ -14,8 +14,8 @@ summary: qos.monitor events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when the Quality of Service (QoS) subsystem's dynamic memory is no longer at its limit for the current platform hardware.
+[.lead]
+qos.monitor events are presented when the Quality of Service (QoS) subsystem's dynamic memory is no longer at its limit for the current platform hardware which typically does not require corrective action.
 
 == qos.monitor.memory.abated
 *Severity*::

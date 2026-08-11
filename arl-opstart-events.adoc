@@ -14,8 +14,8 @@ summary: arl.opstart events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when the aggregate relocation operation starts.
+[.lead]
+arl.opstart events are presented when the aggregate relocation operation starts which typically does not require corrective action.
 
 == arl.OpStart
 *Severity*::

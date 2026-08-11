@@ -14,8 +14,8 @@ summary: moveagent.outofmemory events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when the move agent fails to allocate memory for the move object.
+[.lead]
+moveagent.outofmemory events are presented when the move agent fails to allocate memory for the move object which may require contacting NetApp support.
 
 == moveagent.outofmemory
 *Severity*::

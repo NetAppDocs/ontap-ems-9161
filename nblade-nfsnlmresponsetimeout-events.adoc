@@ -14,8 +14,8 @@ summary: nblade.nfsnlmresponsetimeout events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when the NLM request times out because ONTAP is not able to respond due to a transient error.
+[.lead]
+nblade.nfsnlmresponsetimeout events are presented when the NLM request times out because ONTAP is not able to respond due to a transient error which is typically fixed by verifying system state and connectivity.
 
 == Nblade.nfsNlmResponseTimeout
 *Severity*::

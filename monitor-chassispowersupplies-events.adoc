@@ -14,8 +14,8 @@ summary: monitor.chassispowersupplies events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when all power supplies are OK.
+[.lead]
+monitor.chassispowersupplies events are presented when all power supplies are OK which typically does not require corrective action.
 
 == monitor.chassisPowerSupplies.ok
 *Severity*::

@@ -14,8 +14,8 @@ summary: lmgr.session events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This event occurs when session cleanup for a SpinNP session has stalled.
+[.lead]
+lmgr.session events are presented when a SpinNP session has failed, which causes session-scoped (e.g which is typically fixed by following the documented corrective steps.
 
 == lmgr.session.cleanup.stalled
 *Severity*::

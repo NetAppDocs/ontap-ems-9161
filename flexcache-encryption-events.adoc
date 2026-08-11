@@ -14,8 +14,8 @@ summary: flexcache.encryption events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when a plaintext FlexCache volume has been created for an encrypted origin volume.
+[.lead]
+flexcache.encryption events are presented when a plaintext FlexCache volume has been created for an encrypted origin volume which typically does not require corrective action.
 
 == flexcache.encryption.mismatch.with.origin
 *Severity*::

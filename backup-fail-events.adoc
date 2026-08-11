@@ -14,8 +14,8 @@ summary: backup.fail events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs during a giveback operation, when there are active dump or restore processes running on cfo aggregates of the partner node.
+[.lead]
+backup.fail events are presented when there are active dump or restore processes running on root aggregates of the partner node during a giveback operation, which may require a reboot.
 
 == backup.fail.giveback
 *Severity*::

@@ -14,8 +14,8 @@ summary: clam.voting events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when the Kernel Cluster Services Connectivity, Liveliness, Availability Monitor (CLAM) detects that the voting state of the node changed.
+[.lead]
+clam.voting events are presented when the Kernel Cluster Services Connectivity, Liveliness, Availability Monitor (CLAM) detects that the voting state of the node changed which typically does not require corrective action.
 
 == clam.voting.state.change
 *Severity*::

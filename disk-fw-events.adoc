@@ -14,8 +14,8 @@ summary: disk.fw events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when the system detects disks with firmware that is not up-to-date.
+[.lead]
+disk.fw events are presented when the system detects disks with firmware that is not up-to-date which is typically fixed by verifying system state and connectivity.
 
 == disk.fw.autodownrev
 *Severity*::

@@ -14,8 +14,8 @@ summary: xfcvi.attr events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when any of the xfcvi attributes changes.
+[.lead]
+xfcvi.attr events are presented when any of the xfcvi attributes changes which typically does not require corrective action.
 
 == xfcvi.attr.changed
 *Severity*::

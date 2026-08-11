@@ -14,8 +14,8 @@ summary: encryption.queue events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when an operation on the volume in the encryption queue failed.
+[.lead]
+encryption.queue events are presented when an operation on the volume in the encryption queue failed which is typically fixed by verifying system state and connectivity.
 
 == encryption.queue.op.failed
 *Severity*::

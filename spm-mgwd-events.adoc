@@ -14,8 +14,8 @@ summary: spm.mgwd events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when the Management Gateway (mgwd) subsystem involuntarily exits.
+[.lead]
+spm.mgwd events are presented when the Management Gateway (mgwd) subsystem involuntarily exits which may require restarting affected services or nodes.
 
 == spm.mgwd.process.exit
 *Severity*::

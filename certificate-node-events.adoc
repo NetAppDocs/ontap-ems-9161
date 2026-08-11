@@ -14,8 +14,8 @@ summary: certificate.node events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when an installed certificate record exists in a node Vserver.
+[.lead]
+certificate.node events are presented when an installed certificate record exists in a node Vserver which is typically fixed by following the documented corrective steps.
 
 == certificate.node.vserver
 *Severity*::

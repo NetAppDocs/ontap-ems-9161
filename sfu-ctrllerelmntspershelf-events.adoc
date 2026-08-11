@@ -14,8 +14,8 @@ summary: sfu.ctrllerelmntspershelf events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when a disk shelf firmware download determines the number of controller elements per shelf that can be downloaded.
+[.lead]
+sfu.ctrllerelmntspershelf events are presented when a disk shelf firmware download determines the number of controller elements per shelf that can be downloaded which typically does not require corrective action.
 
 == sfu.ctrllerElmntsPerShelf
 *Severity*::

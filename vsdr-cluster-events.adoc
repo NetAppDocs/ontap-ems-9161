@@ -14,8 +14,8 @@ summary: vsdr.cluster events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when a source cluster of SVMDR relationship is at higher version than destination cluster.
+[.lead]
+vsdr.cluster events are presented when a source cluster of SVMDR relationship is at higher version than destination cluster which is typically fixed by following the documented corrective steps.
 
 == vsdr.cluster.sourceVersionIsHigherThanDestination
 *Severity*::

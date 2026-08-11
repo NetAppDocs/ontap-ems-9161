@@ -14,8 +14,8 @@ summary: nvd.biodone events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when there is an error during a block I/O flush operation.
+[.lead]
+nvd.biodone events are presented when there is an error during a block I/O flush operation which is typically fixed by verifying system state and connectivity.
 
 == nvd.biodone.bio.flush.error
 *Severity*::

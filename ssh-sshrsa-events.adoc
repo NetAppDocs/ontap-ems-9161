@@ -14,8 +14,8 @@ summary: ssh.sshrsa events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message informs the user that future ONTAP releases will, by default, disable the "ssh-rsa (RSA/SHA-1)" form of the signature scheme used with RSA keys for host-based authentication and publickey-based user authentication.
+[.lead]
+ssh.sshrsa events are presented when informs the user that future ONTAP releases will, by default, disable the "ssh-rsa (RSA/SHA-1)" form of the signature scheme used with RSA keys for host-based authentication and publickey-based user authentication which is typically fixed by updating configuration.
 
 == ssh.sshrsa.defDisabledFuture
 *Severity*::

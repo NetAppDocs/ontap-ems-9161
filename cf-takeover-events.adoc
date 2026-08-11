@@ -14,8 +14,8 @@ summary: cf.takeover events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when negotiated takeover is aborted because the background disk firmware update took more than 120 seconds to finish.
+[.lead]
+cf.takeover events are presented when negotiated takeover is aborted because the background disk firmware update took more than 120 seconds to finish which is typically fixed by following the documented corrective steps.
 
 == cf.takeover.aborted.bdfu
 *Severity*::

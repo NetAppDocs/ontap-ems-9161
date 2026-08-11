@@ -14,8 +14,8 @@ summary: replication.upgrade events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when post-upgrade operations for SnapMirror(R) and SnapVault(R), as a part of ONTAP upgrade, are complete.
+[.lead]
+replication.upgrade events are presented when post-upgrade operations for SnapMirror(R) and SnapVault(R), as a part of ONTAP upgrade, are complete which typically does not require corrective action.
 
 == replication.upgrade.complete
 *Severity*::

@@ -14,8 +14,8 @@ summary: cf.boot events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when the failover monitor continues booting after waiting for giveback.
+[.lead]
+cf.boot events are presented when the failover monitor continues booting after waiting for giveback which typically does not require corrective action.
 
 == cf.boot.continuing
 *Severity*::

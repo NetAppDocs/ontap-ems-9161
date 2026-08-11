@@ -14,8 +14,8 @@ summary: raid.ns events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when the system removes ownership of its disks during initialization of a non-shared HA system.
+[.lead]
+raid.ns events are presented when the system removes ownership of its disks during initialization of a non-shared HA system which typically does not require corrective action.
 
 == raid.ns.init.removeOwnership
 *Severity*::

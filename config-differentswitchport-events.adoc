@@ -14,8 +14,8 @@ summary: config.differentswitchport events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when the two ports of the disk are connected to different switch ports.
+[.lead]
+config.differentswitchport events are presented when the two ports of the disk are connected to different switch ports which typically does not require corrective action.
 
 == config.DifferentSwitchPort
 *Severity*::

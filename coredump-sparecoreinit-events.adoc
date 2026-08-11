@@ -14,8 +14,8 @@ summary: coredump.sparecoreinit events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when sparecore initialization is completed.
+[.lead]
+coredump.sparecoreinit events are presented when sparecore initialization is completed which typically does not require corrective action.
 
 == coredump.sparecoreinit.times
 *Severity*::

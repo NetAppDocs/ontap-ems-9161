@@ -14,8 +14,8 @@ summary: shm.reformat events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when the system tries to reformat a disk, but an error is returned.
+[.lead]
+shm.reformat events are presented when the system tries to reformat a disk, but an error is returned which typically does not require corrective action.
 
 == shm.reformat.diskError
 *Severity*::

@@ -14,8 +14,8 @@ summary: config.mixedabmodule events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when the disk shelf stack is miscabled so that one disk shelf's module A is connected to the next disk shelf's module B, or vice versa.
+[.lead]
+config.mixedabmodule events are presented when the disk shelf stack is miscabled so that one disk shelf's module A is connected to the next disk shelf's module B, or vice versa which is typically fixed by following the documented corrective steps.
 
 == config.mixedABmodule
 *Severity*::

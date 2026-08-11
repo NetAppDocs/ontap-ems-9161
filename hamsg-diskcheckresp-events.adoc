@@ -14,8 +14,8 @@ summary: hamsg.diskcheckresp events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when a node receives a disk inventory check response from its high-availability (HA) partner.
+[.lead]
+hamsg.diskcheckresp events are presented when a node receives a disk inventory check response from its high-availability (HA) partner which typically does not require corrective action.
 
 == hamsg.diskCheckResp
 *Severity*::

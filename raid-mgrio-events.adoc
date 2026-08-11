@@ -14,8 +14,8 @@ summary: raid.mgrio events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs during a SyncMirror(R) resynchronization operation, when the system detects an inconsistent RAID write signature on a RAID stripe.
+[.lead]
+raid.mgrio events are presented when the system detects an inconsistent RAID write signature on a RAID stripe during a SyncMirror(R) resynchronization operation, which typically does not require corrective action.
 
 == raid.mgrio.lw.id.inconsist
 *Severity*::

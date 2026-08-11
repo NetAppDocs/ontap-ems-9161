@@ -14,8 +14,8 @@ summary: crypto.import events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when the import of a cryptographic key fails.
+[.lead]
+crypto.import events are presented when the import of a cryptographic key fails which may require contacting NetApp support.
 
 == crypto.import.failed
 *Severity*::

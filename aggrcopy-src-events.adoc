@@ -14,8 +14,8 @@ summary: aggrcopy.src events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This event is issued when we are not able to obtain all the snapshot information, from the vol copy source volume, required for a vol copy transfer.
+[.lead]
+aggrcopy.src events are presented when we are not able to obtain all the snapshot information, from the vol copy source volume, required for a vol copy transfer, which typically does not require corrective action.
 
 == aggrcopy.src.snapshotErr
 *Severity*::

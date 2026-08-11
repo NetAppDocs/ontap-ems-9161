@@ -14,8 +14,8 @@ summary: wafl.inaccessible events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when an access request is received for inaccessible user data (area blocked by wafliron).
+[.lead]
+wafl.inaccessible events are presented when an access request is received for inaccessible user data (area blocked by wafliron) which is typically fixed by verifying system state and connectivity.
 
 == wafl.inaccessible.userdata
 *Severity*::

@@ -14,8 +14,8 @@ summary: tcp.cc events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when the system is configured to use the TCP NewReno congestion control algorithm.
+[.lead]
+tcp.cc events are presented when the system is configured to use the TCP NewReno congestion control algorithm which is typically fixed by verifying system state and updating configuration.
 
 == tcp.cc.NewRenoInUpgrade
 *Severity*::

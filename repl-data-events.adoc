@@ -14,8 +14,8 @@ summary: repl.data events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when compacted data is replicated to a volume that does not have data compaction enabled.
+[.lead]
+repl.data events are presented when compacted data is replicated to a volume that does not have data compaction enabled which typically does not require corrective action.
 
 == repl.data.uncompacted
 *Severity*::

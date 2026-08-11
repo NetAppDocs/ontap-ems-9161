@@ -14,8 +14,8 @@ summary: ic.linkwidthdegraded events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when the high-availability (HA) interconnect detects a degraded link width.
+[.lead]
+ic.linkwidthdegraded events are presented when the high-availability (HA) interconnect detects a degraded link width which may require contacting NetApp support.
 
 == ic.linkWidthDegraded
 *Severity*::

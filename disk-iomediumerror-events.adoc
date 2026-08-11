@@ -14,8 +14,8 @@ summary: disk.iomediumerror events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when the drive reports a medium error.
+[.lead]
+disk.iomediumerror events are presented when the drive reports a medium error which typically does not require corrective action.
 
 == disk.ioMediumError
 *Severity*::

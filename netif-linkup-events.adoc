@@ -14,8 +14,8 @@ summary: netif.linkup events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when the state of a network link changes to "up".
+[.lead]
+netif.linkup events are presented when the state of a network link changes to "up" which typically does not require corrective action.
 
 == netif.linkUp
 *Severity*::

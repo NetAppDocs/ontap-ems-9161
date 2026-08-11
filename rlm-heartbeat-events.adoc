@@ -14,8 +14,8 @@ summary: rlm.heartbeat events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This event is generated when the appliance detects resumption of Remote LAN Module (RLM) heartbeat notifications indicating that the RLM is now available.
+[.lead]
+rlm.heartbeat events are presented when the appliance detects resumption of Remote LAN Module (RLM) heartbeat notifications indicating that the RLM is now available, which typically does not require corrective action.
 
 == rlm.heartbeat.resumed
 *Severity*::

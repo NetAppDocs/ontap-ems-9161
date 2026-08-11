@@ -14,8 +14,8 @@ summary: sp.dhcp events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when the Service Processor (SP) cannot obtain network configuration data through DHCP.
+[.lead]
+sp.dhcp events are presented when the Service Processor (SP) cannot obtain network configuration data through DHCP which is typically fixed by verifying system state and updating configuration.
 
 == sp.dhcp.failure
 *Severity*::

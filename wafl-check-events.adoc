@@ -14,8 +14,8 @@ summary: wafl.check events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-Generic wafl check message
+[.lead]
+wafl.check events are presented when generic wafl check message which typically does not require corrective action.
 
 == wafl.check.info
 *Severity*::

@@ -14,8 +14,8 @@ summary: scsi.scan events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when the creation of the SCSI transport (xpt) path fails.
+[.lead]
+scsi.scan events are presented when the creation of the SCSI transport (xpt) path fails which is typically fixed by verifying system state and connectivity.
 
 == scsi.scan.bus.halted
 *Severity*::

@@ -14,8 +14,8 @@ summary: volmigrate.error events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-Description of the reason a volume migrate failed or was not attempted.
+[.lead]
+volmigrate.error events are presented when description of the reason a volume migrate failed or was not attempted which typically does not require corrective action.
 
 == volmigrate.error
 *Severity*::

@@ -14,8 +14,8 @@ summary: config.move events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when a logical interface (LIF) migration fails in such a way that there might have been a resulting internal loss of the LIF IP address.
+[.lead]
+config.move events are presented when a logical interface (LIF) migration fails in such a way that there might have been a resulting internal loss of the LIF IP address which is typically fixed by updating configuration.
 
 == config.move.fail.lost.lif.address
 *Severity*::

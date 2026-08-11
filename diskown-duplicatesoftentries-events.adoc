@@ -14,8 +14,8 @@ summary: diskown.duplicatesoftentries events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This event is issued when we find duplicate entries in the sanown filer table.
+[.lead]
+diskown.duplicatesoftentries events are presented when we find duplicate entries in the sanown filer table, which typically does not require corrective action.
 
 == diskown.duplicateSoftEntries
 *Severity*::

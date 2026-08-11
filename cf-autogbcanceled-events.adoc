@@ -14,8 +14,8 @@ summary: cf.autogbcanceled events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when an automatic giveback is canceled because of a headswap.
+[.lead]
+cf.autogbcanceled events are presented when an automatic giveback is canceled because of a headswap which typically does not require corrective action.
 
 == cf.autoGBCanceled.headswap
 *Severity*::

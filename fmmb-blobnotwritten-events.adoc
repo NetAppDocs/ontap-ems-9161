@@ -14,8 +14,8 @@ summary: fmmb.blobnotwritten events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when a mailbox 'blob' write operation to the on-disk mailbox data structure fails.
+[.lead]
+fmmb.blobnotwritten events are presented when a mailbox 'blob' write operation to the on-disk mailbox data structure fails which is typically fixed by updating configuration.
 
 == fmmb.BlobNotWritten
 *Deprecated*::

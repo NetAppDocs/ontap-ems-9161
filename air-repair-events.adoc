@@ -14,8 +14,8 @@ summary: air.repair events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when there is an inconsistency in the persistent lock entry metafile.
+[.lead]
+air.repair events are presented when there is an inconsistency in the persistent lock entry metafile which typically does not require corrective action.
 
 == air.repair.prsist.lock.entry
 *Severity*::

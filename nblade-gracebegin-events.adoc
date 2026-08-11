@@ -14,8 +14,8 @@ summary: nblade.gracebegin events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when the NFS server enters the grace state.
+[.lead]
+nblade.gracebegin events are presented when the NFS server enters the grace state which typically does not require corrective action.
 
 == Nblade.graceBegin
 *Severity*::

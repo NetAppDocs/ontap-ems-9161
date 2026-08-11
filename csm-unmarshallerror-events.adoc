@@ -14,8 +14,8 @@ summary: csm.unmarshallerror events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-The message occurs when the Cluster Session Manager (CSM) fails to unmarshal a packet.
+[.lead]
+csm.unmarshallerror events are presented when the Cluster Session Manager (CSM) fails to unmarshal a packet, which is typically fixed by following the documented corrective steps.
 
 == csm.unmarshallError
 *Severity*::

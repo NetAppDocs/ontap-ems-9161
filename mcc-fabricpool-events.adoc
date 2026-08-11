@@ -14,8 +14,8 @@ summary: mcc.fabricpool events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when a FabricPool license exists on only one of the two sites of a MetroCluster(tm) configuration.
+[.lead]
+mcc.fabricpool events are presented when a FabricPool license exists on only one of the two sites of a MetroCluster(tm) configuration which may require reseating or replacing affected hardware.
 
 == mcc.fabricpool.license.absent
 *Severity*::

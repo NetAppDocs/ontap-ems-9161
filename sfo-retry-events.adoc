@@ -14,8 +14,8 @@ summary: sfo.retry events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when automatic giveback of one or more SFO aggregates fails.
+[.lead]
+sfo.retry events are presented when automatic giveback of one or more SFO aggregates fails which typically does not require corrective action.
 
 == sfo.retry.autoGiveback
 *Severity*::

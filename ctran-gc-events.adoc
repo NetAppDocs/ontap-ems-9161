@@ -14,8 +14,8 @@ summary: ctran.gc events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when the Cluster Transaction Manager (CTRAN) Group Coordinator (GC) of a group runs a prop-done probe for a proposal longer than anticipated.
+[.lead]
+ctran.gc events are presented when the Cluster Transaction Manager (CTRAN) Group Coordinator (GC) of a group runs a prop-done probe for a proposal longer than anticipated which may require contacting NetApp support.
 
 == ctran.gc.proposal.stuck
 *Severity*::

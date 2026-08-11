@@ -14,8 +14,8 @@ summary: mlm.bad events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when a device reports invalid data for "REPORT LUNS" command.
+[.lead]
+mlm.bad events are presented when a device reports invalid data for "REPORT LUNS" command which may require reseating or replacing affected hardware.
 
 == mlm.bad.topology.data
 *Severity*::

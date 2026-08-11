@@ -14,8 +14,8 @@ summary: ems.engine events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when the Event Management System (EMS) fails to send an event to a mail destination due to name resolution lookup failures for the mail server specified in EMS configuration options.
+[.lead]
+ems.engine events are presented when the Event Management System (EMS) fails to send an event to a mail destination due to name resolution lookup failures for the mail server specified in EMS configuration options which is typically fixed by verifying system state and updating configuration.
 
 == ems.engine.event.dnsLkupFail
 *Severity*::

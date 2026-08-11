@@ -14,8 +14,8 @@ summary: host.error events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when the host software encounters an error.
+[.lead]
+host.error events are presented when the host software encounters an error which may require contacting NetApp support.
 
 == host.error
 *Severity*::

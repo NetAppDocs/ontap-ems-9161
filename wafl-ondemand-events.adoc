@@ -14,8 +14,8 @@ summary: wafl.ondemand events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when Data ONTAP(R) fails to reserve space for a file operation due to lack of space on the aggregate.
+[.lead]
+wafl.ondemand events are presented when data ONTAP(R) fails to reserve space for a file operation due to lack of space on the aggregate which may require contacting NetApp support.
 
 == wafl.ondemand.aggr.rsv.fail
 *Severity*::

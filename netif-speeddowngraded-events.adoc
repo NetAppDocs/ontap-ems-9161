@@ -14,8 +14,8 @@ summary: netif.speeddowngraded events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occcurs when the interface is operating at a lower speed than expected.
+[.lead]
+netif.speeddowngraded events are presented when the interface is operating at a lower speed than expected which is typically fixed by verifying system state and connectivity.
 
 == netif.speedDowngraded
 *Severity*::

@@ -14,8 +14,8 @@ summary: ha.aggrmigrduration events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs every 60 seconds during an aggregate migration operation.
+[.lead]
+ha.aggrmigrduration events are presented when every 60 seconds during an aggregate migration operation which typically does not require corrective action.
 
 == ha.aggrMigrDuration
 *Severity*::

@@ -14,8 +14,8 @@ summary: diskown.changingstoragepod events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when ASA r2 updates the ownership of a disk to a different storage pod.
+[.lead]
+diskown.changingstoragepod events are presented when aSA r2 updates the ownership of a disk to a different storage pod which typically does not require corrective action.
 
 == diskown.changingStoragePod
 *Severity*::

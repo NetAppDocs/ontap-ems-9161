@@ -14,8 +14,8 @@ summary: disk.reservefailed events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when a SCSI reservation fails.
+[.lead]
+disk.reservefailed events are presented when a SCSI reservation fails which may require contacting NetApp support.
 
 == disk.reserveFailed
 *Severity*::

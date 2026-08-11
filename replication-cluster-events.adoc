@@ -14,8 +14,8 @@ summary: replication.cluster events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs because the transfer of clustered volumes is not supported in nonclustered environments.
+[.lead]
+replication.cluster events are presented when because the transfer of clustered volumes is not supported in nonclustered environments which is typically fixed by following the documented corrective steps.
 
 == replication.cluster.vol
 *Severity*::

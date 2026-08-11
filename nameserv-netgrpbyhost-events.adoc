@@ -14,8 +14,8 @@ summary: nameserv.netgrpbyhost events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when netgroup is configured but the netgroup byhost database is not generated during an upgrade operation.
+[.lead]
+nameserv.netgrpbyhost events are presented when netgroup is configured but the netgroup byhost database is not generated during an upgrade operation which is typically fixed by verifying system state and connectivity.
 
 == nameserv.netgrpbyhost.failed
 *Severity*::

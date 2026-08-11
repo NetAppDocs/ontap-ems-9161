@@ -14,8 +14,8 @@ summary: cifs.static events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when a user creates a static home directory without a substitution value (%u or %w) to uniquely identify a home directory share.
+[.lead]
+cifs.static events are presented when a user creates a static home directory without a substitution value (%u or %w) to uniquely identify a home directory share which is typically fixed by following the documented corrective steps.
 
 == cifs.static.homedir.create
 *Severity*::

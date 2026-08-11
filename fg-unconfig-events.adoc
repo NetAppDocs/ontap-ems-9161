@@ -14,8 +14,8 @@ summary: fg.unconfig events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when a FlexGroup detects constituents that are not properly configured and have not been removed after a sufficient timeout.
+[.lead]
+fg.unconfig events are presented when a FlexGroup detects constituents that are not properly configured and have not been removed after a sufficient timeout which may require contacting NetApp support.
 
 == fg.unconfig.consts.exist
 *Severity*::

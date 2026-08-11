@@ -14,8 +14,8 @@ summary: ems.snmp events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when SNMP parsing of an input packet fails.
+[.lead]
+ems.snmp events are presented when sNMP parsing of an input packet fails which is typically fixed by following the documented corrective steps.
 
 == ems.snmp.parse.error
 *Severity*::

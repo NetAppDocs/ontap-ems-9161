@@ -14,8 +14,8 @@ summary: rpc.unspecified events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This event is issued when turning an ypgroup update fails to occur.
+[.lead]
+rpc.unspecified events are presented when turning an ypgroup update fails to occur, which typically does not require corrective action.
 
 == rpc.unspecified.error
 *Deprecated*::

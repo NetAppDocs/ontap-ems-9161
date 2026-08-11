@@ -14,8 +14,8 @@ summary: sfu.downloadctrllerbridge events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when a disk shelf firmware download starts on a particular disk shelf.
+[.lead]
+sfu.downloadctrllerbridge events are presented when a disk shelf firmware download starts on a particular disk shelf which typically does not require corrective action.
 
 == sfu.downloadCtrllerBridge
 *Severity*::

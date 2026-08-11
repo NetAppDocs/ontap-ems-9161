@@ -14,8 +14,8 @@ summary: configbr.distributefailed events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when a configuration backup cannot be distributed to another node in the cluster.
+[.lead]
+configbr.distributefailed events are presented when a configuration backup cannot be distributed to another node in the cluster which is typically fixed by updating configuration.
 
 == configbr.distributeFailed
 *Severity*::

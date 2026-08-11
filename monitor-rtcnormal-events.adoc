@@ -14,8 +14,8 @@ summary: monitor.rtcnormal events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when the real-time clock (RTC) battery voltage is normal.
+[.lead]
+monitor.rtcnormal events are presented when the real-time clock (RTC) battery voltage is normal which typically does not require corrective action.
 
 == monitor.rtcNormal
 *Severity*::

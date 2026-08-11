@@ -14,8 +14,8 @@ summary: wafl.unable events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when the FlexVol(R) volume cannot be marked as inconsistent.
+[.lead]
+wafl.unable events are presented when the FlexVol(R) volume cannot be marked as inconsistent which typically does not require corrective action.
 
 == wafl.unable.markinconsistent
 *Severity*::

@@ -14,8 +14,8 @@ summary: sp.autoconfig events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when the system cannot automatically obtain IP configuration because the subnet associated with the Service Processor does not have any available IP addresses.
+[.lead]
+sp.autoconfig events are presented when the system cannot automatically obtain IP configuration because the subnet associated with the Service Processor does not have any available IP addresses which may require contacting NetApp support.
 
 == sp.autoconfig.out.of.address
 *Severity*::

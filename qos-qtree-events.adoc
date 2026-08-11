@@ -14,8 +14,8 @@ summary: qos.qtree events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when the Quality of Service (QoS) subsystem recognizes that an older version of a filehandle is still being used to access a qtree associated with a QoS policy group.
+[.lead]
+qos.qtree events are presented when the Quality of Service (QoS) subsystem recognizes that an older version of a filehandle is still being used to access a qtree associated with a QoS policy group which may require restarting affected services or nodes.
 
 == qos.qtree.fh.error.report
 *Severity*::

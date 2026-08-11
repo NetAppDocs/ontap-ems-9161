@@ -14,8 +14,8 @@ summary: ucm.disabled events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when the Unified Target Adapter reads an invalid mode from flash memory.
+[.lead]
+ucm.disabled events are presented when the Unified Target Adapter reads an invalid mode from flash memory which may require contacting NetApp support.
 
 == ucm.disabled.slot
 *Severity*::

@@ -14,8 +14,8 @@ summary: spm.pipd events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when the post-ingest processing daemon (pipd) involuntarily terminates.
+[.lead]
+spm.pipd events are presented when the post-ingest processing daemon (pipd) involuntarily terminates which may require restarting affected services or nodes.
 
 == spm.pipd.process.exit
 *Deprecated*::

@@ -14,8 +14,8 @@ summary: csm.mismatchremotedevice events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-The message occurs when the Cluster Session Manager (CSM) establishes a connection between nodes over the cluster network interface, but the node's remote device IDs do not match.
+[.lead]
+csm.mismatchremotedevice events are presented when the Cluster Session Manager (CSM) establishes a connection between nodes over the cluster network interface, but the node's remote device IDs do not match, which is typically fixed by following the documented corrective steps.
 
 == csm.mismatchRemoteDevice
 *Severity*::

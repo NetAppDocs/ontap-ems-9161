@@ -14,8 +14,8 @@ summary: monitor.raiddp events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs as part of an hourly system check when a double parity volume is in single degraded mode.
+[.lead]
+monitor.raiddp events are presented when a double parity volume is in single degraded mode as part of an hourly system check, which is typically fixed by following the documented corrective steps.
 
 == monitor.raiddp.vol.singleDegraded
 *Severity*::

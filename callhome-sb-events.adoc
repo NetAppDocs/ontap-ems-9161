@@ -14,8 +14,8 @@ summary: callhome.sb events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when the persistent port feature is not working during non-disruptive operations (NDO) such as takeover or giveback due to configuration errors.
+[.lead]
+callhome.sb events are presented when the persistent port feature is not working during non-disruptive operations (NDO) such as takeover or giveback due to configuration errors which may require contacting NetApp support.
 
 == callhome.sb.pp.fcp.failo.err
 *Severity*::

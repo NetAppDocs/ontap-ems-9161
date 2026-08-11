@@ -14,8 +14,8 @@ summary: security.invalid events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when an attempt is made to access the appliance by using invalid authentication credentials.
+[.lead]
+security.invalid events are presented when an attempt is made to access the system by using invalid authentication credentials which is typically fixed by verifying system state and connectivity.
 
 == security.invalid.login
 *Severity*::

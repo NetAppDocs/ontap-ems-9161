@@ -14,8 +14,8 @@ summary: snapmirror.dst events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This event is issued when a SnapMirror incremental transfer to a destination volume is nearing completion and has to abort any dump, vol copy, snapmirror or snapvault operations from that volume.
+[.lead]
+snapmirror.dst events are presented when a SnapMirror incremental transfer to a destination volume is nearing completion and has to abort any dump, vol copy, snapmirror or snapvault operations from that volume, which typically does not require corrective action.
 
 == snapmirror.dst.abortOps
 *Severity*::

@@ -14,8 +14,8 @@ summary: mgr.avail events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message is emitted when statistics is reset
+[.lead]
+mgr.avail events are presented when statistics is reset, which typically does not require corrective action.
 
 == mgr.avail.stat.reset
 *Severity*::

@@ -14,8 +14,8 @@ summary: callhome.cpu events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when a CPU fan failed or the fan is spinning too slowly or too fast.
+[.lead]
+callhome.cpu events are presented when a CPU fan failed or the fan is spinning too slowly or too fast which may require reseating or replacing affected hardware.
 
 == callhome.cpu.fan
 *Severity*::

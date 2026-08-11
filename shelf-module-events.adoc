@@ -14,8 +14,8 @@ summary: shelf.module events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when the system cannot complete the configuration of a disk shelf module with the desired parameters.
+[.lead]
+shelf.module events are presented when the system cannot complete the configuration of a disk shelf module with the desired parameters which may require contacting NetApp support.
 
 == shelf.module.configuration.failure
 *Severity*::

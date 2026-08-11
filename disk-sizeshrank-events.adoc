@@ -14,8 +14,8 @@ summary: disk.sizeshrank events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when the controller detects a decrease in the capacity of a virtual disk.
+[.lead]
+disk.sizeshrank events are presented when the controller detects a decrease in the capacity of a virtual disk which typically does not require corrective action.
 
 == disk.sizeShrank
 *Severity*::

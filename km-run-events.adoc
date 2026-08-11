@@ -14,8 +14,8 @@ summary: km.run events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when a node successfully performs a join operation to join a cluster, but the other nodes in the cluster have the External Key Manager configured and the new node does not.
+[.lead]
+km.run events are presented when a node successfully performs a join operation to join a cluster, but the other nodes in the cluster have the External Key Manager configured and the new node does not which is typically fixed by updating configuration.
 
 == km.run.external.setup
 *Severity*::

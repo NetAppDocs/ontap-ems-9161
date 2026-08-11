@@ -14,8 +14,8 @@ summary: wafl.fs events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs during volume mount, when the fractional reservation value for a volume is found to be corrupted.
+[.lead]
+wafl.fs events are presented when the fractional reservation value for a volume is found to be corrupted during volume mount, which typically does not require corrective action.
 
 == wafl.fs.corrupt.fr.pct.changed
 *Severity*::

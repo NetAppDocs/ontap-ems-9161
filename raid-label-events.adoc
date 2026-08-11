@@ -14,8 +14,8 @@ summary: raid.label events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when a RAID label read I/O failure is detected.
+[.lead]
+raid.label events are presented when a RAID label read I/O failure is detected which typically does not require corrective action.
 
 == raid.label.io.readError
 *Severity*::

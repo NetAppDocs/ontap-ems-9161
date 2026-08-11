@@ -14,8 +14,8 @@ summary: nvme.card events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when the NVMe caching module has gone into a degraded state due to a warning reported by the drive.
+[.lead]
+nvme.card events are presented when the NVMe caching module has gone into a degraded state due to a warning reported by the drive which may require reseating or replacing affected hardware.
 
 == nvme.card.degraded
 *Severity*::

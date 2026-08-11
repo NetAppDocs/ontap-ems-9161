@@ -14,8 +14,8 @@ summary: cpeer.ip events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when an attempt is made to insert an IP address whose address family does not match the family style specified for the cluster peer relationship.
+[.lead]
+cpeer.ip events are presented when an attempt is made to insert an IP address whose address family does not match the family style specified for the cluster peer relationship which is typically fixed by updating configuration.
 
 == cpeer.ip.family.mismatch
 *Severity*::

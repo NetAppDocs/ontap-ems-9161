@@ -14,8 +14,8 @@ summary: wafl.spacemgmnt events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when autodelete/autosize policy of a volume is changed.
+[.lead]
+wafl.spacemgmnt events are presented when autodelete/autosize policy of a volume is changed which typically does not require corrective action.
 
 == wafl.spacemgmnt.policyChg
 *Severity*::

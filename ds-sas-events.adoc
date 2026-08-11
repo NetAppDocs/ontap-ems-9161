@@ -14,8 +14,8 @@ summary: ds.sas events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when the system detects a configuration problem on the shelf I/O module.
+[.lead]
+ds.sas events are presented when the system detects a configuration problem on the shelf I/O module which may require reseating or replacing affected hardware.
 
 == ds.sas.config.warning
 *Severity*::

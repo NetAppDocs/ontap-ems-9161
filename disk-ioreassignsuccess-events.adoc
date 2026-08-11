@@ -14,8 +14,8 @@ summary: disk.ioreassignsuccess events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when a medium error is detected on a disk and the sector reassignment succeeds.
+[.lead]
+disk.ioreassignsuccess events are presented when a medium error is detected on a disk and the sector reassignment succeeds which typically does not require corrective action.
 
 == disk.ioReassignSuccess
 *Severity*::

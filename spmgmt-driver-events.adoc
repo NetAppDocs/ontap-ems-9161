@@ -14,8 +14,8 @@ summary: spmgmt.driver events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when the system encounters an error while trying to get hourly statistics from the Service Processor (SP).
+[.lead]
+spmgmt.driver events are presented when the system encounters an error while trying to get hourly statistics from the Service Processor (SP) which may require a reboot.
 
 == spmgmt.driver.hourly.stats
 *Severity*::

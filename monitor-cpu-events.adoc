@@ -14,8 +14,8 @@ summary: monitor.cpu events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when the CPU busy situation is corrected.
+[.lead]
+monitor.cpu events are presented when the CPU busy situation is corrected which typically does not require corrective action.
 
 == monitor.cpu.ok
 *Severity*::

@@ -14,8 +14,8 @@ summary: wafl.cde events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when the WAFL(R) kernel cannot decompress a compressed user data block.
+[.lead]
+wafl.cde events are presented when the WAFL(R) kernel cannot decompress a compressed user data block which may require contacting NetApp support.
 
 == wafl.cde.decompression.fail
 *Severity*::

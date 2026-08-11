@@ -14,8 +14,8 @@ summary: air.qtm events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when the state of a scanner used to rebuild the qtree metafile changes.
+[.lead]
+air.qtm events are presented when the state of a scanner used to rebuild the qtree metafile changes which typically does not require corrective action.
 
 == air.qtm.rebuild.scan.state
 *Severity*::

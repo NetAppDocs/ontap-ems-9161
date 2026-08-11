@@ -14,8 +14,8 @@ summary: dfu.clustericdown events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when the high-availability (HA) interconnect is not available.
+[.lead]
+dfu.clustericdown events are presented when the high-availability (HA) interconnect is not available which is typically fixed by verifying system state and connectivity.
 
 == dfu.clusterIcDown
 *Severity*::

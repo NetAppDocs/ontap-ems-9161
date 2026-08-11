@@ -14,8 +14,8 @@ summary: login.auth events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This event is issued when a login attempt is refused due to authentication failure.
+[.lead]
+login.auth events are presented when a login attempt is refused due to authentication failure, which is typically fixed by following the documented corrective steps.
 
 == login.auth.loginDenied
 *Severity*::

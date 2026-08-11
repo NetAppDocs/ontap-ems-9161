@@ -14,8 +14,8 @@ summary: hybaggrcopy.srcgeommismatch events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when an aggregate cannot be copied.
+[.lead]
+hybaggrcopy.srcgeommismatch events are presented when an aggregate cannot be copied which is typically fixed by verifying system state and connectivity.
 
 == hybAggrCopy.srcGeomMismatch
 *Severity*::

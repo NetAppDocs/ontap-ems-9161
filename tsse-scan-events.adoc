@@ -14,8 +14,8 @@ summary: tsse.scan events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when inactive data compression scan related information failed to be updated on the catalog file.
+[.lead]
+tsse.scan events are presented when inactive data compression scan related information failed to be updated on the catalog file which typically does not require corrective action.
 
 == tsse.scan.catalog.failed
 *Deprecated*::

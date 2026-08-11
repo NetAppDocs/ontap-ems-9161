@@ -14,8 +14,8 @@ summary: air.removed events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when there is an inconsistency in the remote lock entry metafile.
+[.lead]
+air.removed events are presented when there is an inconsistency in the remote lock entry metafile which typically does not require corrective action.
 
 == air.removed.remote.lck.entry
 *Severity*::

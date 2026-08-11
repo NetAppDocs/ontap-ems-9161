@@ -14,8 +14,8 @@ summary: wafl.failed events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when the ONTAP(R) kernel cannot mount a volume because of file system inconsistency.
+[.lead]
+wafl.failed events are presented when the ONTAP(R) kernel cannot mount a volume because of file system inconsistency which may require contacting NetApp support.
 
 == wafl.failed.mount
 *Severity*::

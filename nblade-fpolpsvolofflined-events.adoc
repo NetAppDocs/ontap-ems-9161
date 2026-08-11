@@ -14,8 +14,8 @@ summary: nblade.fpolpsvolofflined events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when persistent store volume is offline.
+[.lead]
+nblade.fpolpsvolofflined events are presented when persistent store volume is offline which is typically fixed by verifying system state and connectivity.
 
 == Nblade.fpolPsVolOfflined
 *Severity*::

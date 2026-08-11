@@ -14,8 +14,8 @@ summary: monitor.ioexpansiontemperature events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This warning message occurs when the I/O expansion module is too cold.
+[.lead]
+monitor.ioexpansiontemperature events are presented when the I/O expansion module is too cold, which is typically fixed by following the documented corrective steps.
 
 == monitor.ioexpansionTemperature.cool
 *Severity*::

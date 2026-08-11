@@ -14,8 +14,8 @@ summary: ctrl.rdma events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when an invalid system ID is found.
+[.lead]
+ctrl.rdma events are presented when an invalid system ID is found which typically does not require corrective action.
 
 == ctrl.rdma.badSystemId
 *Severity*::

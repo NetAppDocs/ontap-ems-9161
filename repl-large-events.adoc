@@ -14,8 +14,8 @@ summary: repl.large events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when the replication engine encounters a destination that cannot handle large 600TB volume limits.
+[.lead]
+repl.large events are presented when the replication engine encounters a destination that cannot handle large 600TB volume limits which is typically fixed by updating configuration.
 
 == repl.large.vol.600tb.limits.unsup
 *Severity*::

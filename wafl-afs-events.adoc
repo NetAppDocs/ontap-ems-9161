@@ -14,8 +14,8 @@ summary: wafl.afs events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when the deswizzle scanner fails to enable the wafl.deswizzle.afs.first feature on the aggregate because block reallocation redirection cannot be enabled on the aggregate.
+[.lead]
+wafl.afs events are presented when the deswizzle scanner fails to enable the wafl.deswizzle.afs.first feature on the aggregate because block reallocation redirection cannot be enabled on the aggregate which typically does not require corrective action.
 
 == wafl.afs.first.disabled
 *Severity*::

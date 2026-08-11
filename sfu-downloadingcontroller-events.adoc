@@ -14,8 +14,8 @@ summary: sfu.downloadingcontroller events
 :linkattrs:
 :imagesdir: ./media/
 
-[lead]
-This message occurs when a disk shelf firmware download starts on a specific disk shelf.
+[.lead]
+sfu.downloadingcontroller events are presented when a disk shelf firmware download starts on a specific disk shelf which typically does not require corrective action.
 
 == sfu.downloadingController
 *Severity*::
