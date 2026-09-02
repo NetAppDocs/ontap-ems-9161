@@ -15,7 +15,7 @@ summary: flexcache.revoke events
 :imagesdir: ./media/
 
 [.lead]
-flexcache.revoke events are presented when a FlexCache origin volume fails to revoke cached data from a FlexCache volume due to a CSM communication error, which may be resolved by verifying network connectivity and cluster peering relationships.
+flexcache.revoke EMS events occur when a FlexCache origin volume fails to revoke cached data from a FlexCache volume due to a CSM communication error.
 
 == flexcache.revoke.csm.failure
 *Severity*::

@@ -15,7 +15,7 @@ summary: flexcache.capacity events
 :imagesdir: ./media/
 
 [.lead]
-flexcache.capacity events are presented when the total cluster-wide FlexCache provisioned space has exceeded the licensed limit, which can be resolved by installing a new license.
+flexcache.capacity EMS events occur when the total cluster-wide FlexCache provisioned space has exceeded the licensed limit.
 
 == flexcache.capacity.exceeded
 *Severity*::

@@ -15,7 +15,7 @@ summary: cluster.switch events
 :imagesdir: ./media/
 
 [.lead]
-cluster.switch events are presented when cluster switch issues are detected, including insufficient switches for redundancy, power supply failures, unexpected reboots, and unsupported switch models, which may require verifying switch connectivity and configuration.
+cluster.switch EMS events occur when ONTAP encounters issues associated with cluster switch health, including switch redundancy, power supply status, unexpected reboots, and supported switch models.
 
 == cluster.switch.count
 *Severity*::
